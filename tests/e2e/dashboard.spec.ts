@@ -49,3 +49,17 @@ test('persists dark, light and system theme choices', async ({ page }) => {
   await expect(button).toHaveAttribute('aria-label', /Theme: system/);
   await expect.poll(() => page.evaluate(() => localStorage.getItem('theme'))).toBe('system');
 });
+
+test('finish time stays inside its panel on mobile', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+
+  const panel = page.locator('.event-time').first();
+  const finishTime = panel.locator('strong');
+  await expect(finishTime).toBeVisible();
+
+  const [panelBox, timeBox] = await Promise.all([panel.boundingBox(), finishTime.boundingBox()]);
+  expect(panelBox).not.toBeNull();
+  expect(timeBox).not.toBeNull();
+  expect(timeBox!.x + timeBox!.width).toBeLessThanOrEqual(panelBox!.x + panelBox!.width);
+});
