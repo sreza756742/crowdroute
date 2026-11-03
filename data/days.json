@@ -11,44 +11,71 @@
   },
   {
     "date": "2026-11-04",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 53.45,
+    "top_event_ids": [
+      "70774fa75014dd3b",
+      "269f460f1a507ecc",
+      "6dd33966d3131b51"
+    ]
   },
   {
     "date": "2026-11-05",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 35,
+    "top_event_ids": [
+      "dd530692fe6aded2",
+      "67b3f0cfeca845b1",
+      "5e31d4e290803e69"
+    ]
   },
   {
     "date": "2026-11-06",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 28.63,
+    "top_event_ids": [
+      "4f862bd275e53717",
+      "9c432a55f5179b60",
+      "b272822d8801bf0d"
+    ]
   },
   {
     "date": "2026-11-07",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 23.63,
+    "top_event_ids": [
+      "75eaa527b04e58b3",
+      "8e0bef627e8ed96e",
+      "661385102800dca9"
+    ]
   },
   {
     "date": "2026-11-08",
     "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "score": 5.38,
+    "top_event_ids": [
+      "27126c40671db520",
+      "8906c9474961ae79"
+    ]
   },
   {
     "date": "2026-11-09",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 43.63,
+    "top_event_ids": [
+      "6bb25fccd7015ac2",
+      "55c46a18cea1e464",
+      "1f6ed5cba3883864"
+    ]
   },
   {
     "date": "2026-11-10",
-    "rating": "quiet",
-    "score": 0,
-    "top_event_ids": []
+    "rating": "very_busy",
+    "score": 40,
+    "top_event_ids": [
+      "b85e6bfbcfb14c96",
+      "e141bf46ee6f3084",
+      "4db16dea6f62df86"
+    ]
   }
 ]

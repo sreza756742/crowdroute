@@ -26,7 +26,7 @@ export function enrichVenues(rawEvents: RawEvent[], current: Venue[]): Venue[] {
     let suffix = 2;
     while (ids.has(id)) { id = `${baseId}-${suffix}`; suffix += 1; }
     const venue: Venue = {
-      id, name: raw.venueName, address: raw.venueAddress ?? null, lat: null, lng: null,
+      id, name: raw.venueName, address: raw.venueAddress ?? null, lat: raw.venueLat ?? null, lng: raw.venueLng ?? null,
       area: raw.venueArea, capacity: null, notes: 'Imported from the Driver-Data Google Sheet.'
     };
     byName.set(key, venues.length); ids.add(id); venues.push(venue);

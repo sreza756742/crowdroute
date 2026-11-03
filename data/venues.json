@@ -198,5 +198,185 @@
     "area": "central",
     "capacity": null,
     "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "navigation-homes-stadium",
+    "name": "Navigation Homes Stadium",
+    "address": "Corner of Stadium Drive and Franklin Road, Pukekohe, Auckland 2120",
+    "lat": null,
+    "lng": null,
+    "area": "south",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "titirangi-theatre-lopdell-house",
+    "name": "Titirangi Theatre, Lopdell House",
+    "address": "418 Titirangi Road, Titirangi, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "west",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "botany-town-centre-under-hoyts",
+    "name": "Botany Town Centre, under HOYTS",
+    "address": "588 Chapel Road, East Tāmaki, Auckland 2016",
+    "lat": null,
+    "lng": null,
+    "area": "east",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "highbury-shopping-centre-underground-car-park",
+    "name": "Highbury Shopping Centre, underground car park",
+    "address": "Corner Highbury Bypass and Birkenhead Avenue, Birkenhead, Auckland 0626",
+    "lat": null,
+    "lng": null,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "public-bar-whammy",
+    "name": "Public Bar, Whammy",
+    "address": "St Kevin's Arcade, 183 Karangahape Road, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "epsom-girls-grammar-school",
+    "name": "Epsom Girls Grammar School",
+    "address": "Silver Rd, Epsom, Auckland",
+    "lat": -36.8765,
+    "lng": 174.774,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "lynfield-college",
+    "name": "Lynfield College",
+    "address": "191 White Swan Rd, Mt Roskill, Auckland",
+    "lat": -36.9208,
+    "lng": 174.7153,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "kohimarama-beach",
+    "name": "Kohimarama Beach",
+    "address": "80 Tamaki Drive, Kohimarama, Auckland",
+    "lat": -36.8508,
+    "lng": 174.8475,
+    "area": "east",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "basement-theatre",
+    "name": "Basement Theatre",
+    "address": "Lower Greys Avenue, CBD, Auckland",
+    "lat": -36.8531,
+    "lng": 174.7623,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "ding-dong-lounge",
+    "name": "Ding Dong Lounge",
+    "address": "26 Wyndham St, CBD, Auckland",
+    "lat": -36.8473,
+    "lng": 174.7646,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "the-cav",
+    "name": "The Cav",
+    "address": "68 College Hill, Ponsonby, Auckland",
+    "lat": -36.8481,
+    "lng": 174.7467,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "caretaker",
+    "name": "Caretaker",
+    "address": "40 Customs St, CBD, Auckland",
+    "lat": -36.8451,
+    "lng": 174.7694,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "cathy-pacific-auckland-table-tennis-stadium",
+    "name": "Cathy Pacific Auckland Table Tennis Stadium",
+    "address": "99a Gillies Ave, Newmarket, Auckland",
+    "lat": -36.8743,
+    "lng": 174.7732,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "the-right-track-sports-bar",
+    "name": "The Right Track Sports Bar",
+    "address": "4 Fort St, CBD, Auckland",
+    "lat": -36.8458,
+    "lng": 174.767,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "huia-lodge-discovery-hub",
+    "name": "Huia Lodge Discovery Hub",
+    "address": "Michael Horton Drive, Epsom, Auckland",
+    "lat": -36.8974,
+    "lng": 174.7843,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "magic-loft-browns-bay",
+    "name": "Magic Loft Browns Bay",
+    "address": "50 Anzac Road, Browns Bay, Auckland 0630, Browns Bay, Auckland",
+    "lat": -36.7177,
+    "lng": 174.7447,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "hello-chicago-pub-steakhouse",
+    "name": "Hello Chicago - Pub & Steakhouse",
+    "address": "G04A/100 Parnell Road, Parnell, Auckland 1052, Parnell, Auckland",
+    "lat": -36.8527,
+    "lng": 174.7791,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "empire-studios",
+    "name": "Empire Studios",
+    "address": "2 Bond Street, Grey Lynn, Auckland",
+    "lat": -36.8656,
+    "lng": 174.7448,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
   }
 ]

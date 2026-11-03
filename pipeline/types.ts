@@ -7,6 +7,8 @@ export interface RawEvent {
   venueName?: string;
   venueAddress?: string;
   venueArea?: Area;
+  venueLat?: number;
+  venueLng?: number;
   startAt?: string;
   endAt?: string;
   sourceName: string;

@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "source_name": "Eventfinda API",
+    "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": 931601,
+      "session_id": 3981876,
+      "name": "Jesus Christ Superstar",
+      "datetime_start": "2026-11-11 19:30:00",
+      "datetime_end": "2026-11-11 22:00:00",
+      "location": {
+        "id": 992,
+        "name": "The Civic",
+        "summary": "The Civic, CBD, Auckland",
+        "point": {
+          "lat": -36.851,
+          "lng": 174.7639
+        }
+      },
+      "category": {
+        "id": 23,
+        "name": "Musicals",
+        "url_slug": "arts-culture-musicals"
+      }
+    }
+  },
+  {
+    "source_name": "Eventfinda API",
+    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": 947559,
+      "session_id": 3968335,
+      "name": "Cornwall Park Spring Scavenger Hunt",
+      "datetime_start": "2026-11-11 07:00:00",
+      "datetime_end": "2026-11-11 19:00:00",
+      "location": {
+        "id": 37269,
+        "name": "Huia Lodge Discovery Hub",
+        "summary": "Huia Lodge Discovery Hub, Epsom, Auckland",
+        "point": {
+          "lat": -36.8974,
+          "lng": 174.7843
+        }
+      },
+      "category": {
+        "id": 5,
+        "name": "Children, Kids, Holidays",
+        "url_slug": "children-kids-holidays"
+      }
+    }
+  },
+  {
+    "source_name": "Eventfinda API",
+    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": 947470,
+      "session_id": 3967618,
+      "name": "Magic Loft Indoor Playground & Cafe: Weekly Special",
+      "datetime_start": "2026-11-11 09:30:00",
+      "datetime_end": "2026-11-11 16:00:00",
+      "location": {
+        "id": 44014,
+        "name": "Magic Loft Browns Bay",
+        "summary": "Magic Loft Browns Bay, Browns Bay, Auckland",
+        "point": {
+          "lat": -36.7177,
+          "lng": 174.7447
+        }
+      },
+      "category": {
+        "id": 5,
+        "name": "Children, Kids, Holidays",
+        "url_slug": "children-kids-holidays"
+      }
+    }
+  }
+]

@@ -1,8 +1,9 @@
 {
-  "last_successful_run_at": "2026-11-03T08:25:27.844Z",
+  "last_successful_run_at": "2026-11-03T09:36:29.661Z",
   "source_counts": {
-    "Driver-Data Google Sheet": 14
+    "Driver-Data Google Sheet": 24,
+    "Eventfinda API": 49
   },
-  "run_id": "2d416c69-2ee6-431f-9d8b-32770a663e62",
+  "run_id": "89a49f48-5a42-4bb2-a3cb-ffeebf4c2a20",
   "schema_version": 1
 }
