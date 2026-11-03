@@ -2,14 +2,14 @@ import { z } from 'zod';
 
 export const areaSchema = z.enum(['central', 'north', 'south', 'east', 'west']);
 export const categorySchema = z.enum(['concert', 'festival', 'sport', 'racing', 'show', 'other']);
-export const crowdBandSchema = z.enum(['small', 'medium', 'large', 'very_large']);
+export const crowdBandSchema = z.enum(['unknown', 'small', 'medium', 'large', 'very_large']);
 
 export const venueSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  address: z.string().min(1),
-  lat: z.number().min(-90).max(90),
-  lng: z.number().min(-180).max(180),
+  address: z.string().min(1).nullable(),
+  lat: z.number().min(-90).max(90).nullable(),
+  lng: z.number().min(-180).max(180).nullable(),
   area: areaSchema,
   capacity: z.number().int().positive().nullable(),
   notes: z.string().nullable()

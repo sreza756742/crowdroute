@@ -1,8 +1,8 @@
 {
-  "last_successful_run_at": "2026-11-03T06:35:00.000Z",
+  "last_successful_run_at": "2026-11-03T08:25:27.844Z",
   "source_counts": {
-    "Auckland Transport major events": 2
+    "Driver-Data Google Sheet": 14
   },
-  "run_id": "seed-2026-11-03",
+  "run_id": "2d416c69-2ee6-431f-9d8b-32770a663e62",
   "schema_version": 1
 }

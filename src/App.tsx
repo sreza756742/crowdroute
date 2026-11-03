@@ -76,15 +76,17 @@ export default function App() {
 }
 
 function EventCard({ event, venue, onOpen }: { event: Event; venue?: Venue; onOpen: () => void }) {
+  const crowdLabel = event.crowd_band === 'unknown' ? 'Crowd not confirmed' : `${event.crowd_band.replace('_', ' ')} crowd`;
   return <button className="event-card" onClick={onOpen}>
     <div className="event-time"><span>EST. FINISH</span><strong>{formatTime(event.est_end_at)}</strong><small>Starts {formatTime(event.start_at)}</small></div>
-    <div className="event-info"><span className={`category category-${event.category}`}>{categoryLabels[event.category]}</span><h3>{event.title}</h3><p><MapPin /> {venue?.name ?? 'Venue unavailable'}</p><p className="crowd"><span className={`crowd-dot ${event.crowd_band}`} /> {event.crowd_band.replace('_', ' ')} crowd</p></div>
+    <div className="event-info"><span className={`category category-${event.category}`}>{categoryLabels[event.category]}</span><h3>{event.title}</h3><p><MapPin /> {venue?.name ?? 'Venue unavailable'}</p><p className="crowd"><span className={`crowd-dot ${event.crowd_band}`} /> {crowdLabel}</p></div>
     <ChevronRight className="card-chevron" />
   </button>;
 }
 
 function EventDetail({ event, venue, meta, onBack }: { event: Event; venue?: Venue; meta: DashboardData['meta']; onBack: () => void }) {
-  const maps = venue ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${venue.name}, ${venue.address}`)}` : '#';
+  const maps = venue ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([venue.name, venue.address].filter(Boolean).join(', '))}` : '#';
+  const crowdLabel = event.crowd_band === 'unknown' ? 'Not confirmed' : event.crowd_band.replace('_', ' ');
   return <div className="app-shell detail-page">
     <header className="detail-nav"><button className="icon-button" onClick={onBack} aria-label="Back"><ArrowLeft /></button><span>Event details</span><div /></header>
     <UpdateStrip updatedAt={meta.last_successful_run_at} />
@@ -94,8 +96,8 @@ function EventDetail({ event, venue, meta, onBack }: { event: Event; venue?: Ven
       <section className="finish-hero"><span>ESTIMATED FINISH</span><strong>{formatTime(event.est_end_at)}</strong><p>{event.end_time_source === 'reported' ? 'Reported by the event source' : 'Estimated from a typical event duration'}</p></section>
       <dl className="detail-facts">
         <div><dt><Clock3 /> Starts</dt><dd>{formatTime(event.start_at)}, {formatDay(aucklandDate(event.start_at), 'long')}</dd></div>
-        <div><dt><MapPin /> Venue</dt><dd>{venue?.name}<small>{venue?.address}</small></dd></div>
-        <div><dt><CalendarDays /> Expected crowd</dt><dd className="capitalize">{event.crowd_band.replace('_', ' ')}</dd></div>
+        <div><dt><MapPin /> Venue</dt><dd>{venue?.name}{venue?.address && <small>{venue.address}</small>}</dd></div>
+        <div><dt><CalendarDays /> Expected crowd</dt><dd className="capitalize">{crowdLabel}</dd></div>
       </dl>
       <div className="detail-actions"><a className="primary-action" href={maps} target="_blank" rel="noreferrer"><MapPin /> Open in Maps</a><a className="secondary-action" href={event.source_url} target="_blank" rel="noreferrer">View source <ExternalLink /></a></div>
       <p className="disclaimer">Finish time and crowd size are planning estimates, not guarantees of demand or surge pricing.</p>

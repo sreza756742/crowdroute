@@ -15,7 +15,7 @@ export const MAX_DURATION_MINUTES: Record<Category, number> = {
   sport: 480,
   racing: 720,
   show: 360,
-  other: 480
+  other: 720
 };
 
 export function estimateEnd(startAt: string, category: Category): string {

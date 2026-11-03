@@ -9,6 +9,31 @@ export function normalise(value: string): string {
   return value.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+export function enrichVenues(rawEvents: RawEvent[], current: Venue[]): Venue[] {
+  const venues = current.map((venue) => ({ ...venue }));
+  const byName = new Map(venues.map((venue, index) => [normalise(venue.name), index]));
+  const ids = new Set(venues.map((venue) => venue.id));
+  for (const raw of rawEvents) {
+    if (!raw.venueName || !raw.venueArea) continue;
+    const key = normalise(raw.venueName);
+    const existingIndex = byName.get(key);
+    if (existingIndex !== undefined) {
+      if (!venues[existingIndex].address && raw.venueAddress) venues[existingIndex].address = raw.venueAddress;
+      continue;
+    }
+    const baseId = key.replace(/ /g, '-') || 'venue';
+    let id = baseId;
+    let suffix = 2;
+    while (ids.has(id)) { id = `${baseId}-${suffix}`; suffix += 1; }
+    const venue: Venue = {
+      id, name: raw.venueName, address: raw.venueAddress ?? null, lat: null, lng: null,
+      area: raw.venueArea, capacity: null, notes: 'Imported from the Driver-Data Google Sheet.'
+    };
+    byName.set(key, venues.length); ids.add(id); venues.push(venue);
+  }
+  return venues;
+}
+
 export function processRawEvents(rawEvents: RawEvent[], venues: Venue[], now = new Date()): { events: Event[]; review: ReviewItem[] } {
   const events: Event[] = [];
   const review: ReviewItem[] = [];
@@ -60,7 +85,7 @@ export function processRawEvents(rawEvents: RawEvent[], venues: Venue[], now = n
       start_at: startAt,
       est_end_at: endAt,
       end_time_source: raw.endAt ? 'reported' : 'estimated',
-      crowd_band: crowdBand(venue.capacity),
+      crowd_band: raw.crowdBand ?? crowdBand(venue.capacity),
       source_name: raw.sourceName,
       source_url: sourceUrl,
       confidence,

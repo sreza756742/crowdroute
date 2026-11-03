@@ -30,6 +30,7 @@ jobs:
       - name: Rebuild static data atomically
         run: npm run pipeline
         env:
+          GOOGLE_SHEET_CSV_URL: https://docs.google.com/spreadsheets/d/1F2n7llw2_vlsSJgKaofX4Xlp8IZxGSxqZvjW_xxWUIM/export?format=csv&gid=0
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           EVENTFINDA_USERNAME: ${{ secrets.EVENTFINDA_USERNAME }}
           EVENTFINDA_PASSWORD: ${{ secrets.EVENTFINDA_PASSWORD }}

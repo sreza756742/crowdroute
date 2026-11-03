@@ -41,7 +41,7 @@ h1, h2, h3, strong { font-family: inherit; }
 .category-sport { color: var(--lime); }.category-concert { color: #d18cff; }.category-racing { color: var(--amber); }.category-festival { color: #ff82ac; }
 .event-info h3 { font-size: 17px; line-height: 1.24; margin: 7px 0 10px; letter-spacing: -.025em; }
 .event-info p { margin: 6px 0; color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 6px; text-transform: capitalize; }
-.event-info p svg { width: 14px; height: 14px; flex: none; }.crowd-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--amber); }.crowd-dot.very_large { background: var(--red); }.crowd-dot.small { background: var(--lime); }
+.event-info p svg { width: 14px; height: 14px; flex: none; }.crowd-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--amber); }.crowd-dot.very_large { background: var(--red); }.crowd-dot.small { background: var(--lime); }.crowd-dot.unknown { background: var(--muted); }
 .card-chevron { position: absolute; right: 9px; top: 50%; width: 17px; color: var(--muted); transform: translateY(-50%); }
 footer { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 28px 0 0; padding: 22px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 footer button { border: 0; padding: 10px 0; background: transparent; color: var(--text); text-decoration: underline; cursor: pointer; }

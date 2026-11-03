@@ -58,5 +58,145 @@
     "area": "west",
     "capacity": null,
     "notes": "Address verified from Auckland Transport; capacity intentionally left unverified."
+  },
+  {
+    "id": "ellerslie-racecourse",
+    "name": "Ellerslie Racecourse",
+    "address": "100 Ascot Avenue, Remuera, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "the-civic",
+    "name": "The Civic",
+    "address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "headquarters",
+    "name": "Headquarters",
+    "address": "103 Customs Street West, Auckland CBD",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "bivacco",
+    "name": "Bivacco",
+    "address": "115 Customs Street West, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "saint-alice",
+    "name": "Saint Alice",
+    "address": "Level 1, 204 Quay Street, Auckland CBD",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "soul-bar-bistro",
+    "name": "SOUL Bar & Bistro",
+    "address": "18 Lower Hobson Street, Auckland Central",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "dr-rudi-s-rooftop-brewing-co",
+    "name": "Dr Rudi's Rooftop Brewing Co.",
+    "address": "Level 2, 204 Quay Street, Auckland CBD",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "north-harbour-stadium-car-park-h",
+    "name": "North Harbour Stadium, Car Park H",
+    "address": "Stadium Drive, Albany, Auckland 0632",
+    "lat": null,
+    "lng": null,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "takapuna-beach-reserve",
+    "name": "Takapuna Beach Reserve",
+    "address": "Takapuna Beach Reserve, Takapuna, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "big-fan",
+    "name": "BIG FAN",
+    "address": "25 McDonald Street, Morningside, Auckland 1025",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "te-atatu-south-community-centre",
+    "name": "Te Atatū South Community Centre",
+    "address": "247 Edmonton Road, Te Atatū South, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "west",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "basement-theatre-studio",
+    "name": "Basement Theatre – Studio",
+    "address": "Lower Greys Avenue, Auckland City Centre",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "basement-theatre-theatre",
+    "name": "Basement Theatre – Theatre",
+    "address": "Lower Greys Avenue, Auckland City Centre",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "rooftop-at-qt",
+    "name": "Rooftop at QT",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
   }
 ]
