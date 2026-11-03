@@ -2,6 +2,8 @@ node_modules/
 dist/
 coverage/
 playwright-report/
+lighthouse-report/
+.lighthouseci/
 test-results/
 .env
 .env.*

@@ -16,7 +16,7 @@
 
 ### Phase 2: Full pipeline and workflow
 
-- [ ] Add and activate the remaining source adapters after credentials/robots approval.
+- [ ] Activate Ticketmaster and Eventfinda after owner credentials/terms approval, and approve a third structured source. Both credentialed adapters are implemented; AT HTML and inaccessible HRNZ endpoints were deliberately rejected for automation.
 - [x] Confidence/review split, disabled-by-default AI provider interface and mock tests.
 - [x] Twice-daily pipeline, manual trigger, commit-if-changed, last-good-data guards and keepalive workflows.
 - [x] Generate and verify `events.xlsx`; its two data rows match the two seed JSON records.
@@ -28,12 +28,12 @@
 ### Phase 4: Frontend
 
 - [x] Mobile-first home, event detail, filters, About, stale state, theme switch and PWA cache implemented.
-- [x] Add 390 px Playwright journeys for day/event detail and category filters (2 passing).
-- [ ] Run and tune against Lighthouse thresholds.
+- [x] Add 390 px Playwright journeys for day/event detail, category filters and a production-service-worker offline reload.
+- [x] Lighthouse mobile: Performance 99, Accessibility 100, Best Practices 96 and SEO 100; thresholds now run in CI.
 
 ### Phase 5: Hardening and launch
 
-- [ ] Complete the launch-grade runbook.
+- [x] Complete the launch-grade runbook for sources, incidents, Pages, secrets and data recovery.
 - [x] Dependency audit and common-signature secret scan: no high/critical advisory and no secret signature found.
 - [ ] Deploy and test the live Pages URL.
 
@@ -46,8 +46,9 @@
 
 ## Verification — 3 November 2026
 
-- `npm run check`: passed (ESLint, strict TypeScript, 24 Vitest cases, production PWA build).
-- `npm run test:e2e`: 2/2 mobile Chromium journeys passed at 390 × 844 px.
-- Production build: 12 precached entries; main JS 329.74 kB / 100.73 kB gzip before the final system-font reduction.
+- `npm run check`: passed (ESLint, strict TypeScript, 37 Vitest cases, production PWA build).
+- `npm run test:e2e`: 3/3 mobile Chromium journeys passed at 390 × 844 px, including an offline reload.
+- Production build: 12 precached entries; main JS 329.74 kB / 100.73 kB gzip.
+- Lighthouse mobile: Performance 99, Accessibility 100, Best Practices 96, SEO 100; FCP 0.8 s, LCP 2.0 s, TBT 0 ms, CLS 0.
 - Spreadsheet inspection: `events.xlsx` has 2 data rows, matching `events.json`.
 - `npm audit`: no critical findings; the original high-severity `xlsx` dependency was removed. Moderate/low transitive build-tool advisories remain for Phase 5 review.

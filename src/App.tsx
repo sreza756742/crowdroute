@@ -1,4 +1,4 @@
-import { ArrowLeft, CalendarDays, ChevronRight, Clock3, ExternalLink, Info, MapPin, Moon, SlidersHorizontal, Sun, X } from 'lucide-react';
+import { ArrowLeft, CalendarDays, ChevronRight, Clock3, ExternalLink, Info, MapPin, Monitor, Moon, SlidersHorizontal, Sun, X } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { loadDashboardData, type DashboardData } from './lib/data';
 import type { Area, Category, Event, Venue } from './lib/schemas';
@@ -7,6 +7,7 @@ import { formatDay, formatTime, isStale, relativeUpdated } from './lib/time';
 const categoryLabels: Record<Category, string> = { concert: 'Concerts', festival: 'Festivals', sport: 'Sport', racing: 'Racing', show: 'Shows', other: 'Other' };
 const areaLabels: Record<Area, string> = { central: 'Central', north: 'North', south: 'South', east: 'East', west: 'West' };
 const ratingLabels = { quiet: 'Quiet', busy: 'Busy', very_busy: 'Very busy' } as const;
+type ThemePreference = 'dark' | 'light' | 'system';
 
 export default function App() {
   const [data, setData] = useState<DashboardData>();
@@ -17,10 +18,18 @@ export default function App() {
   const [showAbout, setShowAbout] = useState(false);
   const [categories, setCategories] = useState<Set<Category>>(new Set());
   const [areas, setAreas] = useState<Set<Area>>(new Set());
-  const [light, setLight] = useState(false);
+  const [theme, setTheme] = useState<ThemePreference>(() => {
+    const saved = localStorage.getItem('theme');
+    return saved === 'light' || saved === 'system' ? saved : 'dark';
+  });
 
   useEffect(() => { loadDashboardData().then((next) => { setData(next); setSelectedDate(next.days[0]?.date ?? ''); }).catch(() => setError(true)); }, []);
-  useEffect(() => { document.documentElement.dataset.theme = light ? 'light' : 'dark'; }, [light]);
+  useEffect(() => {
+    const media = matchMedia('(prefers-color-scheme: light)');
+    const apply = () => { document.documentElement.dataset.theme = theme === 'system' ? (media.matches ? 'light' : 'dark') : theme; };
+    apply(); localStorage.setItem('theme', theme); media.addEventListener('change', apply);
+    return () => media.removeEventListener('change', apply);
+  }, [theme]);
 
   const venues = useMemo(() => new Map(data?.venues.map((venue) => [venue.id, venue])), [data]);
   const visibleEvents = useMemo(() => data?.events
@@ -39,7 +48,9 @@ export default function App() {
     <header className="topbar">
       <div><span className="eyebrow">AUCKLAND</span><h1>Drive the busy hours.</h1></div>
       <div className="header-actions">
-        <button className="icon-button" aria-label="Toggle theme" onClick={() => setLight((value) => !value)}>{light ? <Moon /> : <Sun />}</button>
+        <button className="icon-button" aria-label={`Theme: ${theme}. Change theme`} title={`Theme: ${theme}`} onClick={() => setTheme((value) => value === 'dark' ? 'light' : value === 'light' ? 'system' : 'dark')}>
+          {theme === 'dark' ? <Sun /> : theme === 'light' ? <Monitor /> : <Moon />}
+        </button>
         <button className="icon-button" aria-label="About" onClick={() => setShowAbout(true)}><Info /></button>
       </div>
     </header>
@@ -113,7 +124,7 @@ function About({ meta, onBack }: { meta: DashboardData['meta']; onBack: () => vo
     <section><h2>Use estimates as a guide</h2><p>Finish times, crowd bands and “expected busy” ratings help with planning. They do not guarantee passenger demand, earnings or surge pricing. This service is not affiliated with any ride platform.</p></section>
     <section><h2>Privacy</h2><p>No account, cookies or tracking. This site does not collect or store personal information.</p></section>
     <section><h2>Data status</h2><p>Last updated {relativeUpdated(meta.last_successful_run_at)}. Sources currently configured: {Object.keys(meta.source_counts).join(', ') || 'none'}.</p></section>
-    <a className="secondary-action" href="mailto:feedback@example.com">Send feedback</a>
+    <a className="secondary-action" href="mailto:?subject=Auckland%20Driver%20Events%20feedback">Send feedback</a>
   </main></div>;
 }
 

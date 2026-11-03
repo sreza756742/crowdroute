@@ -20,3 +20,13 @@ test('filter sheet applies a category filter', async ({ page }) => {
   await page.getByRole('button', { name: 'Show events' }).click();
   await expect(page.getByRole('button', { name: /Filters 1/ })).toBeVisible();
 });
+
+test('last loaded dashboard opens offline', async ({ page, context }) => {
+  await page.goto('/');
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Drive the busy hours.' })).toBeVisible();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Drive the busy hours.' })).toBeVisible();
+});
