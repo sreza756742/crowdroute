@@ -11,7 +11,7 @@
     "source_name": "Auckland Thoroughbred Racing",
     "source_url": "https://www.aucklandracing.co.nz/racedays/melbourne-cup-day/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "melbourne cup day|ellerslie-racecourse|2026-11-03"
   },
   {
@@ -26,7 +26,7 @@
     "source_name": "Auckland Stadiums / Auckland Night Markets",
     "source_url": "https://www.aucklandstadiums.co.nz/event/albany-night-market",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "albany night market|north-harbour-stadium-car-park-h|2026-11-03"
   },
   {
@@ -41,7 +41,7 @@
     "source_name": "Beach Series",
     "source_url": "https://beachseries.co.nz/pages/event-schedule",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "takapuna beach series event 1|takapuna-beach-reserve|2026-11-03"
   },
   {
@@ -56,7 +56,7 @@
     "source_name": "Roland Australia / Humanitix",
     "source_url": "https://events.humanitix.com/roland-rockshop-present-beatlab-in-partnership-with-big-fan",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "roland and rockshop present beatlab|big-fan|2026-11-03"
   },
   {
@@ -71,7 +71,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/08/community-jam/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "community jam|te-atatu-south-community-centre|2026-11-03"
   },
   {
@@ -86,7 +86,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/skwert-the-reunion/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "skwert the reunion|basement-theatre-studio|2026-11-03"
   },
   {
@@ -101,7 +101,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-03"
   },
   {
@@ -116,38 +116,8 @@
     "source_name": "Basement Theatre",
     "source_url": "https://basementtheatre.co.nz/blogs/whats-on/i-know-you-fish-or-te-conozco-bacalao",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre-theatre|2026-11-03"
-  },
-  {
-    "id": "6dd33966d3131b51",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-03T18:00:00.000Z",
-    "est_end_at": "2026-11-04T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-04"
-  },
-  {
-    "id": "21bd9747e09cd7bc",
-    "title": "Magic Loft Indoor Playground & Cafe: Weekly Special",
-    "category": "other",
-    "venue_id": "magic-loft-browns-bay",
-    "start_at": "2026-11-03T20:30:00.000Z",
-    "est_end_at": "2026-11-04T03:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "magic loft indoor playground cafe weekly special|magic-loft-browns-bay|2026-11-04"
   },
   {
     "id": "18497dc0163a19b0",
@@ -161,7 +131,7 @@
     "source_name": "Eden Park",
     "source_url": "https://edenpark.co.nz/events/blackcaps-v-india-odi-wednesday-4-november-2026/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "blackcaps v india odi|eden-park|2026-11-04"
   },
   {
@@ -176,7 +146,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "botany night market|botany-town-centre-under-hoyts|2026-11-04"
   },
   {
@@ -191,7 +161,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "highbury night market|highbury-shopping-centre-underground-car-park|2026-11-04"
   },
   {
@@ -206,23 +176,8 @@
     "source_name": "Basement Theatre",
     "source_url": "https://basementtheatre.co.nz/blogs/whats-on/skwert-the-reunion",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "skwert the reunion|basement-theatre-studio|2026-11-04"
-  },
-  {
-    "id": "70774fa75014dd3b",
-    "title": "SKWERT: The Reunion",
-    "category": "concert",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-04T05:30:00.000Z",
-    "est_end_at": "2026-11-04T06:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/skwert-the-reunion/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "skwert the reunion|basement-theatre|2026-11-04"
   },
   {
     "id": "716c220bc28a2184",
@@ -236,7 +191,7 @@
     "source_name": "AucklandNZ / Ticketmaster",
     "source_url": "https://www.aucklandnz.com/events/all-events/cure-kids-quiz-night-with-dark-destroyer-shaun-wallace",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "quiz night with shaun wallace for cure kids|navigation-homes-stadium|2026-11-04"
   },
   {
@@ -251,7 +206,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-04"
   },
   {
@@ -266,7 +221,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-04"
   },
   {
@@ -281,7 +236,7 @@
     "source_name": "UnderTheRadar",
     "source_url": "https://www.undertheradar.co.nz/gig/105481/Public-Service-Shooless--Hiri.utr",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "public service shooless hiri|public-bar-whammy|2026-11-04"
   },
   {
@@ -296,23 +251,8 @@
     "source_name": "Basement Theatre",
     "source_url": "https://basementtheatre.co.nz/blogs/whats-on/i-know-you-fish-or-te-conozco-bacalao",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre-theatre|2026-11-04"
-  },
-  {
-    "id": "269f460f1a507ecc",
-    "title": "I Know You, Fish (or Te Conozco Bacalao)",
-    "category": "show",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-04T07:00:00.000Z",
-    "est_end_at": "2026-11-04T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/i-know-you-fish-or-te-conozco-bacalao/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre|2026-11-04"
   },
   {
     "id": "da99ee726e9981d2",
@@ -326,53 +266,8 @@
     "source_name": "Basement Theatre",
     "source_url": "https://basementtheatre.co.nz/blogs/whats-on/driving-me-crazy",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "driving me crazy|basement-theatre-studio|2026-11-04"
-  },
-  {
-    "id": "41f52656df6f8565",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-04T18:00:00.000Z",
-    "est_end_at": "2026-11-05T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-05"
-  },
-  {
-    "id": "72f43d4cc266e6a5",
-    "title": "Magic Loft Indoor Playground & Cafe: Weekly Special",
-    "category": "other",
-    "venue_id": "magic-loft-browns-bay",
-    "start_at": "2026-11-04T20:30:00.000Z",
-    "est_end_at": "2026-11-05T03:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "magic loft indoor playground cafe weekly special|magic-loft-browns-bay|2026-11-05"
-  },
-  {
-    "id": "dd530692fe6aded2",
-    "title": "ACVC: Beach Volleyball Training",
-    "category": "sport",
-    "venue_id": "kohimarama-beach",
-    "start_at": "2026-11-05T03:00:00.000Z",
-    "est_end_at": "2026-11-05T05:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/acvc-beach-volleyball-training/auckland/kohimarama",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "acvc beach volleyball training|kohimarama-beach|2026-11-05"
   },
   {
     "id": "370e64eeb79f90d4",
@@ -386,7 +281,7 @@
     "source_name": "AucklandNZ / K Road Business Association",
     "source_url": "https://www.aucklandnz.com/events/all-events/first-thursdays-on-karangahape-rd",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "first thursdays on karangahape road|karangahape-road|2026-11-05"
   },
   {
@@ -401,7 +296,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "henderson night market|henderson-night-market-under-kmart|2026-11-05"
   },
   {
@@ -416,38 +311,8 @@
     "source_name": "The Tuning Fork",
     "source_url": "https://www.tuningfork.co.nz/whats-on",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "andre a lisa|the-tuning-fork|2026-11-05"
-  },
-  {
-    "id": "67b3f0cfeca845b1",
-    "title": "SKWERT: The Reunion",
-    "category": "concert",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-05T05:30:00.000Z",
-    "est_end_at": "2026-11-05T06:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/skwert-the-reunion/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "skwert the reunion|basement-theatre|2026-11-05"
-  },
-  {
-    "id": "5e31d4e290803e69",
-    "title": "Social Indoor Volleyball - Full Court Mixed 6s - From ACVC",
-    "category": "sport",
-    "venue_id": "lynfield-college",
-    "start_at": "2026-11-05T06:00:00.000Z",
-    "est_end_at": "2026-11-05T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/social-indoor-volleyball-full-court-mixed-6s-from-acvc/auckland/mt-roskill",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "social indoor volleyball full court mixed 6s from acvc|lynfield-college|2026-11-05"
   },
   {
     "id": "3dfbb1caa5875969",
@@ -461,7 +326,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/aklphil26-pictures-at-an-exhibition",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "pictures at an exhibition|great-hall-auckland-town-hall|2026-11-05"
   },
   {
@@ -476,7 +341,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-05"
   },
   {
@@ -491,53 +356,8 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-05"
-  },
-  {
-    "id": "72a284ca65d981ce",
-    "title": "I Know You, Fish (or Te Conozco Bacalao)",
-    "category": "show",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-05T07:00:00.000Z",
-    "est_end_at": "2026-11-05T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/i-know-you-fish-or-te-conozco-bacalao/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre|2026-11-05"
-  },
-  {
-    "id": "ae567210d12ed15e",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-05T18:00:00.000Z",
-    "est_end_at": "2026-11-06T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-06"
-  },
-  {
-    "id": "35fd48d98ba6e028",
-    "title": "Magic Loft Indoor Playground & Cafe: Weekly Special",
-    "category": "other",
-    "venue_id": "magic-loft-browns-bay",
-    "start_at": "2026-11-05T20:30:00.000Z",
-    "est_end_at": "2026-11-06T03:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "magic loft indoor playground cafe weekly special|magic-loft-browns-bay|2026-11-06"
   },
   {
     "id": "27224b37fa64ec86",
@@ -551,7 +371,7 @@
     "source_name": "The Trusts Arena",
     "source_url": "https://thetrustsarena.co.nz/event/bring-it-home/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "bring it home gumboot throw world record attempt|the-trusts-arena|2026-11-06"
   },
   {
@@ -566,7 +386,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "papatoetoe night market|papatoetoe-night-market-under-kmart|2026-11-06"
   },
   {
@@ -581,7 +401,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/keep-the-change-unplugged-2026",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "keep the change unplugged 2026|bruce-mason-centre|2026-11-06"
   },
   {
@@ -596,23 +416,8 @@
     "source_name": "AucklandNZ",
     "source_url": "https://www.aucklandnz.com/events/all-events/bnz-kahu-vs-pouakai-game-2",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "bnz ka hu vs poua kai|eventfinda-stadium|2026-11-06"
-  },
-  {
-    "id": "4f862bd275e53717",
-    "title": "SKWERT: The Reunion",
-    "category": "concert",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-06T05:30:00.000Z",
-    "est_end_at": "2026-11-06T06:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/skwert-the-reunion/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "skwert the reunion|basement-theatre|2026-11-06"
   },
   {
     "id": "31d4736efca9c4cc",
@@ -626,23 +431,8 @@
     "source_name": "The Tuning Fork",
     "source_url": "https://www.tuningfork.co.nz/all-events/ash-grunwald-tickets-ae1562909",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "ash grunwald|the-tuning-fork|2026-11-06"
-  },
-  {
-    "id": "9c432a55f5179b60",
-    "title": "Social Indoor Volleyball - Full Court Mixed 6s - From ACVC",
-    "category": "sport",
-    "venue_id": "lynfield-college",
-    "start_at": "2026-11-06T06:00:00.000Z",
-    "est_end_at": "2026-11-06T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/social-indoor-volleyball-full-court-mixed-6s-from-acvc/auckland/mt-roskill",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "social indoor volleyball full court mixed 6s from acvc|lynfield-college|2026-11-06"
   },
   {
     "id": "9f1206ae85497d16",
@@ -656,7 +446,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-06"
   },
   {
@@ -671,7 +461,7 @@
     "source_name": "GALS / Humanitix",
     "source_url": "https://events.humanitix.com/galsreflections",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "gals presents reflections the way home|st-matthew-in-the-city|2026-11-06"
   },
   {
@@ -686,38 +476,8 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-06"
-  },
-  {
-    "id": "91143bcbebc3c987",
-    "title": "I Know You, Fish (or Te Conozco Bacalao)",
-    "category": "show",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-06T07:00:00.000Z",
-    "est_end_at": "2026-11-06T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/i-know-you-fish-or-te-conozco-bacalao/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre|2026-11-06"
-  },
-  {
-    "id": "112e8e29644ee605",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-06T18:00:00.000Z",
-    "est_end_at": "2026-11-07T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-07"
   },
   {
     "id": "a00d0c87d03e44d5",
@@ -731,7 +491,7 @@
     "source_name": "Great Auckland Bargain Book Fair",
     "source_url": "https://aucklandbargainbookfair.carrd.co/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "the great auckland bargain book fair day 1|barfoot-thompson-stadium|2026-11-07"
   },
   {
@@ -746,7 +506,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/open-arts-day-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "open arts day 2026|corban-estate-arts-centre|2026-11-07"
   },
   {
@@ -761,7 +521,7 @@
     "source_name": "MOTAT",
     "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "bricks and blocks day 1|motat-great-north-road|2026-11-07"
   },
   {
@@ -776,7 +536,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her matinee|titirangi-theatre-lopdell-house|2026-11-07"
   },
   {
@@ -791,23 +551,8 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar matinee|the-civic|2026-11-07"
-  },
-  {
-    "id": "75eaa527b04e58b3",
-    "title": "Jesus Christ Superstar",
-    "category": "concert",
-    "venue_id": "the-civic",
-    "start_at": "2026-11-07T01:30:00.000Z",
-    "est_end_at": "2026-11-07T04:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "jesus christ superstar|the-civic|2026-11-07"
   },
   {
     "id": "c03ca2d1272c29eb",
@@ -821,23 +566,8 @@
     "source_name": "Auckland Transport",
     "source_url": "https://at.govt.nz/bus-train-ferry/event-transport/auckland-fc-vs-wellington-phoenix-2026",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "auckland fc v wellington phoenix|go-media-stadium|2026-11-07"
-  },
-  {
-    "id": "8e0bef627e8ed96e",
-    "title": "SKWERT: The Reunion",
-    "category": "concert",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-07T05:30:00.000Z",
-    "est_end_at": "2026-11-07T06:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/skwert-the-reunion/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "skwert the reunion|basement-theatre|2026-11-07"
   },
   {
     "id": "f965c82d1b185514",
@@ -851,23 +581,8 @@
     "source_name": "AucklandNZ / Eventfinda",
     "source_url": "https://www.aucklandnz.com/events/all-events/diwali-with-khan-saab",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "diwali with khan saab|due-drop-events-centre|2026-11-07"
-  },
-  {
-    "id": "661385102800dca9",
-    "title": "Social Indoor Volleyball - Full Court Mixed 6s - From ACVC",
-    "category": "sport",
-    "venue_id": "lynfield-college",
-    "start_at": "2026-11-07T06:00:00.000Z",
-    "est_end_at": "2026-11-07T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/social-indoor-volleyball-full-court-mixed-6s-from-acvc/auckland/mt-roskill",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "social indoor volleyball full court mixed 6s from acvc|lynfield-college|2026-11-07"
   },
   {
     "id": "db1f413c7e791592",
@@ -881,7 +596,7 @@
     "source_name": "Spark Arena",
     "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "iron maiden run for your lives saturday|spark-arena|2026-11-07"
   },
   {
@@ -896,7 +611,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar evening|the-civic|2026-11-07"
   },
   {
@@ -911,7 +626,7 @@
     "source_name": "SkyCity Auckland",
     "source_url": "https://skycityauckland.co.nz/whats-on/entertainment/beatlemania-on-tour-2026/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "beatlemania on tour|skycity-theatre|2026-11-07"
   },
   {
@@ -926,7 +641,7 @@
     "source_name": "Eventbrite / Infusion Entertainment",
     "source_url": "https://www.eventbrite.co.nz/e/back-to-the-90s-auckland-new-venue-tickets-1998120328691",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "back to the 90s|wynyard-pavilion|2026-11-07"
   },
   {
@@ -941,23 +656,8 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her evening|titirangi-theatre-lopdell-house|2026-11-07"
-  },
-  {
-    "id": "86e105c20b23a335",
-    "title": "I Know You, Fish (or Te Conozco Bacalao)",
-    "category": "show",
-    "venue_id": "basement-theatre",
-    "start_at": "2026-11-07T07:00:00.000Z",
-    "est_end_at": "2026-11-07T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/i-know-you-fish-or-te-conozco-bacalao/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre|2026-11-07"
   },
   {
     "id": "151ecf0fa230743e",
@@ -971,23 +671,8 @@
     "source_name": "Great Auckland Bargain Book Fair",
     "source_url": "https://aucklandbargainbookfair.carrd.co/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "the great auckland bargain book fair day 2|barfoot-thompson-stadium|2026-11-08"
-  },
-  {
-    "id": "8906c9474961ae79",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-07T18:00:00.000Z",
-    "est_end_at": "2026-11-08T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-08"
   },
   {
     "id": "04ff0dcd0ca66253",
@@ -1001,7 +686,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/people-s-triathlon-race-1-maraetai/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "people s triathlon race 1 maraetai|maraetai-beach|2026-11-08"
   },
   {
@@ -1016,7 +701,7 @@
     "source_name": "MOTAT",
     "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "bricks and blocks day 2|motat-great-north-road|2026-11-08"
   },
   {
@@ -1031,7 +716,7 @@
     "source_name": "Ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/24006545E0A9406A",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "dancing under the big top morning|bruce-mason-centre|2026-11-08"
   },
   {
@@ -1046,7 +731,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/parnell-festival-of-roses/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "parnell festival of roses|parnell-rose-garden-dove-myer-robinson-park|2026-11-08"
   },
   {
@@ -1061,23 +746,8 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar matinee|the-civic|2026-11-08"
-  },
-  {
-    "id": "27126c40671db520",
-    "title": "Jesus Christ Superstar",
-    "category": "concert",
-    "venue_id": "the-civic",
-    "start_at": "2026-11-08T00:00:00.000Z",
-    "est_end_at": "2026-11-08T02:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "jesus christ superstar|the-civic|2026-11-08"
   },
   {
     "id": "962990b60ef73e66",
@@ -1091,7 +761,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her sunday|titirangi-theatre-lopdell-house|2026-11-08"
   },
   {
@@ -1106,7 +776,7 @@
     "source_name": "Ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/240065479C4A2233",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "dancing under the big top afternoon|bruce-mason-centre|2026-11-08"
   },
   {
@@ -1121,7 +791,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/reverie/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "nztrio reverie|concert-chamber-auckland-town-hall|2026-11-08"
   },
   {
@@ -1136,7 +806,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar evening|the-civic|2026-11-08"
   },
   {
@@ -1151,38 +821,8 @@
     "source_name": "Spark Arena",
     "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "iron maiden run for your lives sunday|spark-arena|2026-11-08"
-  },
-  {
-    "id": "ab878ae804ccc364",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-08T18:00:00.000Z",
-    "est_end_at": "2026-11-09T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-09"
-  },
-  {
-    "id": "e1279642e02aa24c",
-    "title": "Magic Loft Indoor Playground & Cafe: Weekly Special",
-    "category": "other",
-    "venue_id": "magic-loft-browns-bay",
-    "start_at": "2026-11-08T20:30:00.000Z",
-    "est_end_at": "2026-11-09T03:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "magic loft indoor playground cafe weekly special|magic-loft-browns-bay|2026-11-09"
   },
   {
     "id": "bb1152c89e1ada87",
@@ -1196,7 +836,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/mm26-the-band-of-the-royal-regiment-of-new-zealand-artillery",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "royal nz artillery band morning melodies|bruce-mason-centre|2026-11-09"
   },
   {
@@ -1211,143 +851,8 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "kelston night market|kelston-mall-under-woolworths|2026-11-09"
-  },
-  {
-    "id": "6bb25fccd7015ac2",
-    "title": "Jesus Christ Superstar",
-    "category": "concert",
-    "venue_id": "the-civic",
-    "start_at": "2026-11-09T05:00:00.000Z",
-    "est_end_at": "2026-11-09T07:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "jesus christ superstar|the-civic|2026-11-09"
-  },
-  {
-    "id": "55c6513a79f3a0ed",
-    "title": "Contemporary Dance | All Levels Showcase Course",
-    "category": "show",
-    "venue_id": "empire-studios",
-    "start_at": "2026-11-09T05:00:00.000Z",
-    "est_end_at": "2026-11-09T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/contemporary-dance-all-levels-showcase-course/auckland/grey-lynn",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "contemporary dance all levels showcase course|empire-studios|2026-11-09"
-  },
-  {
-    "id": "55c46a18cea1e464",
-    "title": "Social Indoor Volleyball - Full Court Mixed 6s - From ACVC",
-    "category": "sport",
-    "venue_id": "lynfield-college",
-    "start_at": "2026-11-09T06:00:00.000Z",
-    "est_end_at": "2026-11-09T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/social-indoor-volleyball-full-court-mixed-6s-from-acvc/auckland/mt-roskill",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "social indoor volleyball full court mixed 6s from acvc|lynfield-college|2026-11-09"
-  },
-  {
-    "id": "cfb832d588e8be23",
-    "title": "Central Table Tennis Club",
-    "category": "other",
-    "venue_id": "cathy-pacific-auckland-table-tennis-stadium",
-    "start_at": "2026-11-09T06:00:00.000Z",
-    "est_end_at": "2026-11-09T09:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/central-table-tennis-club/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "central table tennis club|cathy-pacific-auckland-table-tennis-stadium|2026-11-09"
-  },
-  {
-    "id": "5ff96c142f31d6de",
-    "title": "Monday Night Quiz ",
-    "category": "other",
-    "venue_id": "hello-chicago-pub-steakhouse",
-    "start_at": "2026-11-09T06:00:00.000Z",
-    "est_end_at": "2026-11-09T07:45:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/monday-night-quiz-7pm/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "monday night quiz|hello-chicago-pub-steakhouse|2026-11-09"
-  },
-  {
-    "id": "1f6ed5cba3883864",
-    "title": "ACVC Volleyball Learn to Play!",
-    "category": "sport",
-    "venue_id": "epsom-girls-grammar-school",
-    "start_at": "2026-11-09T06:15:00.000Z",
-    "est_end_at": "2026-11-09T07:45:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/acvc-volleyball-learn-to-play/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "acvc volleyball learn to play|epsom-girls-grammar-school|2026-11-09"
-  },
-  {
-    "id": "7538f9c00c5363f7",
-    "title": "Comedy Pub Quiz At The Cav",
-    "category": "other",
-    "venue_id": "the-cav",
-    "start_at": "2026-11-09T06:30:00.000Z",
-    "est_end_at": "2026-11-09T08:15:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/comedy-pub-quiz-at-the-cav/auckland/ponsonby",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "comedy pub quiz at the cav|the-cav|2026-11-09"
-  },
-  {
-    "id": "344323f2f12670c4",
-    "title": "Cornwall Park Spring Scavenger Hunt",
-    "category": "other",
-    "venue_id": "huia-lodge-discovery-hub",
-    "start_at": "2026-11-09T18:00:00.000Z",
-    "est_end_at": "2026-11-10T06:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/cornwall-park-spring-scavenger-hunt/auckland/epsom",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "cornwall park spring scavenger hunt|huia-lodge-discovery-hub|2026-11-10"
-  },
-  {
-    "id": "b507e59e53b2c938",
-    "title": "Magic Loft Indoor Playground & Cafe: Weekly Special",
-    "category": "other",
-    "venue_id": "magic-loft-browns-bay",
-    "start_at": "2026-11-09T20:30:00.000Z",
-    "est_end_at": "2026-11-10T03:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/magic-loft-indoor-playground-cafe-12-90-weekday-special/auckland/north-shore",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "magic loft indoor playground cafe weekly special|magic-loft-browns-bay|2026-11-10"
   },
   {
     "id": "188304ae90410c17",
@@ -1361,23 +866,8 @@
     "source_name": "CONZTRUCT",
     "source_url": "https://conztruct.co.nz/register/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "conztruct auckland north|eventfinda-stadium|2026-11-10"
-  },
-  {
-    "id": "b85e6bfbcfb14c96",
-    "title": "ACVC: Beach Volleyball Training",
-    "category": "sport",
-    "venue_id": "kohimarama-beach",
-    "start_at": "2026-11-10T03:00:00.000Z",
-    "est_end_at": "2026-11-10T05:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/acvc-beach-volleyball-training/auckland/kohimarama",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "acvc beach volleyball training|kohimarama-beach|2026-11-10"
   },
   {
     "id": "d0c87fd1d26051dc",
@@ -1391,52 +881,22 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "albany night market|north-harbour-stadium-car-park-h|2026-11-10"
   },
   {
-    "id": "97c0f485d772bac8",
-    "title": "Quiz Night",
-    "category": "other",
-    "venue_id": "the-right-track-sports-bar",
-    "start_at": "2026-11-10T05:30:00.000Z",
-    "est_end_at": "2026-11-10T07:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/quiz-night/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "quiz night|the-right-track-sports-bar|2026-11-10"
-  },
-  {
-    "id": "e141bf46ee6f3084",
-    "title": "Social Indoor Volleyball - Full Court Mixed 6s - From ACVC",
-    "category": "sport",
-    "venue_id": "lynfield-college",
-    "start_at": "2026-11-10T06:00:00.000Z",
-    "est_end_at": "2026-11-10T08:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/social-indoor-volleyball-full-court-mixed-6s-from-acvc/auckland/mt-roskill",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "social indoor volleyball full court mixed 6s from acvc|lynfield-college|2026-11-10"
-  },
-  {
-    "id": "4db16dea6f62df86",
+    "id": "0cd4d1c9cc38b14c",
     "title": "Jesus Christ Superstar",
-    "category": "concert",
+    "category": "show",
     "venue_id": "the-civic",
     "start_at": "2026-11-10T06:30:00.000Z",
     "est_end_at": "2026-11-10T09:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "Ticketmaster / Auckland Live",
+    "source_url": "https://www.ticketmaster.co.nz/jesus-christ-superstar-tickets/artist/843994",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-10"
   },
   {
@@ -1451,37 +911,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-03T10:31:24.297Z",
+    "updated_at": "2026-11-03T10:52:22.077Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-10"
-  },
-  {
-    "id": "b209709de581867a",
-    "title": "Dropout Comedy",
-    "category": "show",
-    "venue_id": "ding-dong-lounge",
-    "start_at": "2026-11-10T07:30:00.000Z",
-    "est_end_at": "2026-11-10T09:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/dropout-comedy2/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "dropout comedy|ding-dong-lounge|2026-11-10"
-  },
-  {
-    "id": "362867b62e49c3b9",
-    "title": "Junglebird Jazz and Cocktails",
-    "category": "concert",
-    "venue_id": "caretaker",
-    "start_at": "2026-11-10T08:00:00.000Z",
-    "est_end_at": "2026-11-10T10:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "medium",
-    "source_name": "Eventfinda API",
-    "source_url": "https://www.eventfinda.co.nz/2026/junglebird-jazz-and-cocktails/auckland",
-    "confidence": 0.9,
-    "updated_at": "2026-11-03T10:31:24.297Z",
-    "dedupe_key": "junglebird jazz and cocktails|caretaker|2026-11-10"
   }
 ]
