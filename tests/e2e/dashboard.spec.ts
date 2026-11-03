@@ -30,3 +30,23 @@ test('last loaded dashboard opens offline', async ({ page, context }) => {
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Drive the busy hours.' })).toBeVisible();
 });
+
+test('warns when the published data is over 24 hours old', async ({ page }) => {
+  await page.route('**/data/meta.json', async (route) => route.fulfill({
+    contentType: 'application/json',
+    body: JSON.stringify({ last_successful_run_at: '2026-10-01T00:00:00.000Z', source_counts: {}, run_id: 'stale-test', schema_version: 1 })
+  }));
+  await page.goto('/');
+  await expect(page.getByText('Data may be out of date')).toBeVisible();
+});
+
+test('persists dark, light and system theme choices', async ({ page }) => {
+  await page.goto('/');
+  const button = page.getByRole('button', { name: /Theme:/ });
+  await expect(button).toHaveAttribute('aria-label', /Theme: dark/);
+  await button.click();
+  await expect(button).toHaveAttribute('aria-label', /Theme: light/);
+  await button.click();
+  await expect(button).toHaveAttribute('aria-label', /Theme: system/);
+  await expect.poll(() => page.evaluate(() => localStorage.getItem('theme'))).toBe('system');
+});

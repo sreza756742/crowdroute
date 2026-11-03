@@ -3,9 +3,9 @@
 ## What runs where
 
 - The browser reads only versioned static files from `data/`; there is no server, account or personal-data store.
-- `.github/workflows/pipeline.yml` fetches, validates and atomically replaces data at 03:00 and 17:00 UTC. That is 16:00 and 06:00 during NZDT, and 15:00 and 05:00 during NZST.
+- `.github/workflows/pipeline.yml` fetches, validates and atomically replaces data at 03:00 and 17:00 UTC, commits it, uploads the verified build and deploys Pages directly. That is 16:00 and 06:00 during NZDT, and 15:00 and 05:00 during NZST.
 - `.github/workflows/ci.yml` runs lint, strict TypeScript, unit tests, a production build, Lighthouse budgets and 390 px Playwright journeys. A passing `main` build deploys Pages.
-- `.github/workflows/keepalive.yml` re-enables the scheduled pipeline weekly because GitHub may disable schedules after prolonged repository inactivity.
+- `.github/workflows/keepalive.yml` commits a weekly UTC timestamp because GitHub may disable schedules after prolonged repository inactivity. It shares a write-concurrency group with the data pipeline to prevent push races.
 
 ## First-time repository setup (owner)
 

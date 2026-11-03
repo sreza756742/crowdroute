@@ -18,3 +18,5 @@ Reviewed 3 November 2026. Facts only are retained; descriptions and images are n
 - Auckland Stadiums has an official “What’s On” page, but automated use is held until its robots file and site terms are recorded explicitly.
 - Eden Park has an official structured events page, but individual start times are not consistently exposed in the list, so records without a verified time go to review.
 - HRNZ publishes API documentation, but its documented endpoints returned HTTP 403 during the 3 November 2026 access check. Do not enable it unless HRNZ grants access and confirms reuse terms.
+- A-Leagues exposes an official public fixture JSON endpoint used by its own website, but its [Terms of Use](https://aleagues.com.au/terms-and-conditions/) restrict republication to personal/non-commercial use without written consent. It is not enabled; obtain APL permission before reconsidering it.
+- The documented [nawhe? public Events API](https://www.nawhe.com/developers/events-api) permits integrations and was queried successfully, but returned zero Auckland records on 3 November 2026. It is not counted as a usable launch source until Auckland coverage exists.

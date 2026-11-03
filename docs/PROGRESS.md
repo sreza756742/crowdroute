@@ -18,7 +18,7 @@
 
 - [ ] Activate Ticketmaster and Eventfinda after owner credentials/terms approval, and approve a third structured source. Both credentialed adapters are implemented; AT HTML and inaccessible HRNZ endpoints were deliberately rejected for automation.
 - [x] Confidence/review split, disabled-by-default AI provider interface and mock tests.
-- [x] Twice-daily pipeline, manual trigger, commit-if-changed, last-good-data guards and keepalive workflows.
+- [x] Twice-daily pipeline, manual trigger, commit-if-changed, direct Pages deployment, last-good-data guards and an activity-producing weekly keepalive workflow.
 - [x] Generate and verify `events.xlsx`; its two data rows match the two seed JSON records.
 
 ### Phase 3: Scoring
@@ -28,7 +28,7 @@
 ### Phase 4: Frontend
 
 - [x] Mobile-first home, event detail, filters, About, stale state, theme switch and PWA cache implemented.
-- [x] Add 390 px Playwright journeys for day/event detail, category filters and a production-service-worker offline reload.
+- [x] Add 390 px Playwright journeys for day/event detail, category filters, stale-data warning, all theme modes and a production-service-worker offline reload.
 - [x] Lighthouse mobile: Performance 99, Accessibility 100, Best Practices 96 and SEO 100; thresholds now run in CI.
 
 ### Phase 5: Hardening and launch
@@ -47,7 +47,7 @@
 ## Verification — 3 November 2026
 
 - `npm run check`: passed (ESLint, strict TypeScript, 37 Vitest cases, production PWA build).
-- `npm run test:e2e`: 3/3 mobile Chromium journeys passed at 390 × 844 px, including an offline reload.
+- `npm run test:e2e`: 5/5 mobile Chromium journeys passed at 390 × 844 px, including stale data, theme persistence and an offline reload.
 - Production build: 12 precached entries; main JS 329.74 kB / 100.73 kB gzip.
 - Lighthouse mobile: Performance 99, Accessibility 100, Best Practices 96, SEO 100; FCP 0.8 s, LCP 2.0 s, TBT 0 ms, CLS 0.
 - Spreadsheet inspection: `events.xlsx` has 2 data rows, matching `events.json`.

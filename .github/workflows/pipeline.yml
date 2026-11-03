@@ -8,9 +8,11 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: event-pipeline
+  group: repository-writes
   cancel-in-progress: false
 
 jobs:
@@ -34,6 +36,10 @@ jobs:
           EVENTFINDA_LOCATION_ID: ${{ vars.EVENTFINDA_LOCATION_ID }}
           AI_EXTRACTION_ENABLED: 'false'
       - run: npm run check
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
       - name: Commit changed data
         run: |
           git config user.name "github-actions[bot]"
@@ -41,3 +47,16 @@ jobs:
           git add data
           git diff --cached --quiet || git commit -m "data: refresh Auckland events"
           git push
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy refreshed dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
