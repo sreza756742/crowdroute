@@ -59,11 +59,11 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const sources: EventSource[] = [];
   if (process.env.GOOGLE_SHEET_CSV_URL) sources.push(new GoogleSheetsSource(process.env.GOOGLE_SHEET_CSV_URL));
   if (process.env.TICKETMASTER_API_KEY) sources.push(new TicketmasterSource(process.env.TICKETMASTER_API_KEY));
-  if (process.env.EVENTFINDA_USERNAME && process.env.EVENTFINDA_PASSWORD && process.env.EVENTFINDA_LOCATION_ID) {
+  if (process.env.EVENTFINDA_USERNAME && process.env.EVENTFINDA_PASSWORD) {
     sources.push(new EventfindaSource({
       username: process.env.EVENTFINDA_USERNAME,
       password: process.env.EVENTFINDA_PASSWORD,
-      locationId: process.env.EVENTFINDA_LOCATION_ID
+      locationId: process.env.EVENTFINDA_LOCATION_ID || '2'
     }));
   }
   if (sources.length === 0) throw new Error('No source credentials are configured. Existing published data was not changed.');

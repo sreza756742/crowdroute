@@ -18,6 +18,10 @@ export interface EventfindaEvent {
 interface EventfindaResponse { events?: EventfindaEvent[]; count?: number }
 
 export interface EventfindaCredentials { username: string; password: string; locationId: string }
+interface EventfindaClientOptions {
+  fetch?: typeof fetch;
+  pause?: (milliseconds: number) => Promise<void>;
+}
 
 function categoryFor(event: EventfindaEvent): Category {
   const text = `${event.category?.name ?? ''} ${event.category?.url_slug ?? ''}`.toLowerCase();
@@ -51,18 +55,36 @@ export function mapEventfindaEvent(event: EventfindaEvent): RawEvent {
 
 export class EventfindaSource implements EventSource {
   readonly name = 'Eventfinda API';
-  constructor(private readonly credentials: EventfindaCredentials) {}
+  private readonly fetchClient: typeof fetch;
+  private readonly pause: (milliseconds: number) => Promise<void>;
+
+  constructor(private readonly credentials: EventfindaCredentials, options: EventfindaClientOptions = {}) {
+    this.fetchClient = options.fetch ?? fetch;
+    this.pause = options.pause ?? ((milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds)));
+  }
 
   async fetch(from: Date, to: Date): Promise<RawEvent[]> {
     const url = new URL('https://api.eventfinda.co.nz/v2/events.json');
     url.searchParams.set('location', this.credentials.locationId);
     url.searchParams.set('start_date', from.toISOString().slice(0, 10));
     url.searchParams.set('end_date', to.toISOString().slice(0, 10));
-    url.searchParams.set('rows', '200');
+    url.searchParams.set('rows', '20');
     const authorization = Buffer.from(`${this.credentials.username}:${this.credentials.password}`).toString('base64');
-    const response = await fetch(url, { headers: { accept: 'application/json', authorization: `Basic ${authorization}`, 'user-agent': 'AucklandDriverEvents/0.2' } });
-    if (!response.ok) throw new Error(`Eventfinda returned ${response.status}`);
-    const payload = (await response.json()) as EventfindaResponse;
-    return (payload.events ?? []).map(mapEventfindaEvent);
+    const events: EventfindaEvent[] = [];
+    let total = Number.POSITIVE_INFINITY;
+    let offset = 0;
+    while (offset < total) {
+      url.searchParams.set('offset', String(offset));
+      const response = await this.fetchClient(url.toString(), { headers: { accept: 'application/json', authorization: `Basic ${authorization}`, 'user-agent': 'AucklandDriverEvents/0.3' } });
+      if (!response.ok) throw new Error(`Eventfinda returned ${response.status}`);
+      const payload = (await response.json()) as EventfindaResponse;
+      const page = payload.events ?? [];
+      total = payload.count ?? page.length;
+      events.push(...page);
+      offset += page.length;
+      if (page.length === 0 || offset >= total) break;
+      await this.pause(1_000);
+    }
+    return events.map(mapEventfindaEvent);
   }
 }
