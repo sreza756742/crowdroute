@@ -558,5 +558,15 @@
     "area": "west",
     "capacity": null,
     "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "studio-the-venue",
+    "name": "Studio The Venue",
+    "address": "340 Karangahape Road, Auckland Central, Auckland 1010",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
   }
 ]
