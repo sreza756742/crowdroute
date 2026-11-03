@@ -1,0 +1,18 @@
+name: Keep scheduled workflows active
+
+on:
+  schedule:
+    - cron: '23 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Re-enable event pipeline if inactivity disabled it
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable pipeline.yml --repo "${{ github.repository }}"

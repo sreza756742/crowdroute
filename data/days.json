@@ -1,0 +1,10 @@
+[
+  { "date": "2026-11-03", "rating": "quiet", "score": 0, "top_event_ids": [] },
+  { "date": "2026-11-04", "rating": "quiet", "score": 3.38, "top_event_ids": ["at-blackcaps-india-2026"] },
+  { "date": "2026-11-05", "rating": "quiet", "score": 0, "top_event_ids": [] },
+  { "date": "2026-11-06", "rating": "quiet", "score": 0, "top_event_ids": [] },
+  { "date": "2026-11-07", "rating": "quiet", "score": 3.38, "top_event_ids": ["at-auckland-fc-phoenix-2026"] },
+  { "date": "2026-11-08", "rating": "quiet", "score": 0, "top_event_ids": [] },
+  { "date": "2026-11-09", "rating": "quiet", "score": 0, "top_event_ids": [] },
+  { "date": "2026-11-10", "rating": "quiet", "score": 0, "top_event_ids": [] }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "eden-park",
+    "name": "Eden Park",
+    "address": "42 Reimers Avenue, Kingsland, Auckland 1024",
+    "lat": -36.8749,
+    "lng": 174.7449,
+    "area": "central",
+    "capacity": null,
+    "notes": "Address and coordinates verified from the official venue and Auckland Transport listings; capacity intentionally left unverified."
+  },
+  {
+    "id": "go-media-stadium",
+    "name": "Go Media Stadium",
+    "address": "2 Beasley Avenue, Penrose, Auckland 1061",
+    "lat": -36.9183,
+    "lng": 174.8124,
+    "area": "central",
+    "capacity": null,
+    "notes": "Address and coordinates verified from the official venue and Auckland Transport listings; capacity intentionally left unverified."
+  },
+  {
+    "id": "spark-arena",
+    "name": "Spark Arena",
+    "address": "42 Mahuhu Crescent, Parnell, Auckland 1010",
+    "lat": -36.8472,
+    "lng": 174.776,
+    "area": "central",
+    "capacity": null,
+    "notes": "Address and coordinates verified from the official venue and Auckland Transport listings; capacity intentionally left unverified."
+  },
+  {
+    "id": "western-springs-bowl",
+    "name": "Western Springs Bowl",
+    "address": "Great North Road, Western Springs, Auckland 1022",
+    "lat": -36.8664,
+    "lng": 174.7264,
+    "area": "central",
+    "capacity": null,
+    "notes": "Address verified from Auckland Transport; capacity intentionally left unverified."
+  },
+  {
+    "id": "north-harbour-stadium",
+    "name": "North Harbour Stadium",
+    "address": "Stadium Drive, Albany, Auckland 0632",
+    "lat": -36.7266,
+    "lng": 174.701,
+    "area": "north",
+    "capacity": null,
+    "notes": "Address verified from Auckland Transport; capacity intentionally left unverified."
+  },
+  {
+    "id": "the-trusts-arena",
+    "name": "The Trusts Arena",
+    "address": "65-67 Central Park Drive, Henderson, Auckland 0610",
+    "lat": -36.8534,
+    "lng": 174.6346,
+    "area": "west",
+    "capacity": null,
+    "notes": "Address verified from Auckland Transport; capacity intentionally left unverified."
+  }
+]
