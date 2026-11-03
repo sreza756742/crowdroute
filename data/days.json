@@ -2,11 +2,11 @@
   {
     "date": "2026-11-03",
     "rating": "very_busy",
-    "score": 49.39,
+    "score": 27.71,
     "top_event_ids": [
-      "5f1e831133a07073",
       "fdbf21add080cc1e",
-      "f58b6e93e9b349f6"
+      "f58b6e93e9b349f6",
+      "66bcee24f39386f6"
     ]
   },
   {
@@ -22,7 +22,7 @@
   {
     "date": "2026-11-05",
     "rating": "very_busy",
-    "score": 35,
+    "score": 51.69,
     "top_event_ids": [
       "dd530692fe6aded2",
       "67b3f0cfeca845b1",
@@ -32,17 +32,17 @@
   {
     "date": "2026-11-06",
     "rating": "very_busy",
-    "score": 28.63,
+    "score": 53.08,
     "top_event_ids": [
       "4f862bd275e53717",
       "9c432a55f5179b60",
-      "b272822d8801bf0d"
+      "91143bcbebc3c987"
     ]
   },
   {
     "date": "2026-11-07",
     "rating": "very_busy",
-    "score": 23.63,
+    "score": 67.5,
     "top_event_ids": [
       "75eaa527b04e58b3",
       "8e0bef627e8ed96e",
@@ -51,17 +51,18 @@
   },
   {
     "date": "2026-11-08",
-    "rating": "quiet",
-    "score": 5.38,
+    "rating": "very_busy",
+    "score": 41.97,
     "top_event_ids": [
       "27126c40671db520",
-      "8906c9474961ae79"
+      "8906c9474961ae79",
+      "04ff0dcd0ca66253"
     ]
   },
   {
     "date": "2026-11-09",
     "rating": "very_busy",
-    "score": 43.63,
+    "score": 48.24,
     "top_event_ids": [
       "6bb25fccd7015ac2",
       "55c46a18cea1e464",
@@ -71,7 +72,7 @@
   {
     "date": "2026-11-10",
     "rating": "very_busy",
-    "score": 40,
+    "score": 50.95,
     "top_event_ids": [
       "b85e6bfbcfb14c96",
       "e141bf46ee6f3084",

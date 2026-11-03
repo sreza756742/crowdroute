@@ -1,5 +1,49 @@
 [
   {
+    "source_name": "Jassy Dean Trust",
+    "source_url": "https://jassydeantrust.org/",
+    "reason": "Unknown venue",
+    "raw": {
+      "event_id": "",
+      "title": "Jassy Dean Trust Waiheke Garden Festival – Day 1",
+      "category": "festival",
+      "venue_name": "Private gardens across Waiheke Island",
+      "venue_address": "",
+      "area": "Waiheke Island",
+      "start_date": "2026-11-07",
+      "start_time": "10:00",
+      "end_date": "2026-11-07",
+      "end_time": "16:00",
+      "source_name": "Jassy Dean Trust",
+      "source_url": "https://jassydeantrust.org/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $60 after early bird; 10 private gardens, attendance unpublished. Driver estimate: low for mainland drivers, possible ferry-terminal demand around 09:00 and 16:00–17:00. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Jassy Dean Trust",
+    "source_url": "https://jassydeantrust.org/",
+    "reason": "Unknown venue",
+    "raw": {
+      "event_id": "",
+      "title": "Jassy Dean Trust Waiheke Garden Festival – Day 2",
+      "category": "festival",
+      "venue_name": "Private gardens across Waiheke Island",
+      "venue_address": "",
+      "area": "Waiheke Island",
+      "start_date": "2026-11-08",
+      "start_time": "10:00",
+      "end_date": "2026-11-08",
+      "end_time": "16:00",
+      "source_name": "Jassy Dean Trust",
+      "source_url": "https://jassydeantrust.org/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $60 after early bird; attendance unpublished. Driver estimate: low for mainland drivers, possible ferry-terminal demand around 09:00 and 16:00–17:00. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
     "source_name": "Eventfinda API",
     "source_url": "https://www.eventfinda.co.nz/2026/jesus-christ-superstar/auckland",
     "reason": "Start date outside the eight-day window",

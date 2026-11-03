@@ -378,5 +378,185 @@
     "area": "central",
     "capacity": null,
     "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "karangahape-road",
+    "name": "Karangahape Road",
+    "address": "Karangahape Road, Auckland City Centre",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "the-tuning-fork",
+    "name": "The Tuning Fork",
+    "address": "42 Mahuhu Crescent, Parnell, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "great-hall-auckland-town-hall",
+    "name": "Great Hall, Auckland Town Hall",
+    "address": "301–317 Queen Street, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "henderson-night-market-under-kmart",
+    "name": "Henderson Night Market, under Kmart",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "area": "west",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "papatoetoe-night-market-under-kmart",
+    "name": "Papatoetoe Night Market, under Kmart",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "area": "south",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "eventfinda-stadium",
+    "name": "Eventfinda Stadium",
+    "address": "17 Silverfield, Wairau Valley, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "bruce-mason-centre",
+    "name": "Bruce Mason Centre",
+    "address": "1 The Promenade, Takapuna, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "north",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "st-matthew-in-the-city",
+    "name": "St Matthew-in-the-City",
+    "address": "132 Hobson Street, Auckland CBD 1010",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "barfoot-thompson-stadium",
+    "name": "Barfoot & Thompson Stadium",
+    "address": "203 Kohimarama Road, Kohimarama, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "east",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "corban-estate-arts-centre",
+    "name": "Corban Estate Arts Centre",
+    "address": "2 Mount Lebanon Lane, Henderson, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "west",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "motat-great-north-road",
+    "name": "MOTAT, Great North Road",
+    "address": "805 Great North Road, Western Springs, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "due-drop-events-centre",
+    "name": "Due Drop Events Centre",
+    "address": "770 Great South Road, Wiri, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "south",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "skycity-theatre",
+    "name": "SkyCity Theatre",
+    "address": "Corner Hobson and Wellesley Streets, Auckland CBD",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "wynyard-pavilion",
+    "name": "Wynyard Pavilion",
+    "address": "17 Jellicoe Street, Wynyard Quarter, Auckland 1010",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "maraetai-beach",
+    "name": "Maraetai Beach",
+    "address": "188 Maraetai Drive, Maraetai, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "east",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "parnell-rose-garden-dove-myer-robinson-park",
+    "name": "Parnell Rose Garden, Dove-Myer Robinson Park",
+    "address": "85 Gladstone Road, Parnell, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "concert-chamber-auckland-town-hall",
+    "name": "Concert Chamber, Auckland Town Hall",
+    "address": "301–317 Queen Street, Auckland",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "kelston-mall-under-woolworths",
+    "name": "Kelston Mall, under Woolworths",
+    "address": null,
+    "lat": null,
+    "lng": null,
+    "area": "west",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
   }
 ]
