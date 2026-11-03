@@ -6,19 +6,18 @@ import { scoreDay } from '../src/lib/scoring.js';
 import { daysFileSchema, eventsFileSchema, metaSchema, reviewFileSchema, venuesFileSchema } from '../src/lib/schemas.js';
 import { exportEventsSpreadsheet } from './export.js';
 import { processRawEvents } from './process.js';
+import { EventfindaSource } from './sources/eventfinda.js';
 import { TicketmasterSource } from './sources/ticketmaster.js';
 import type { EventSource } from './types.js';
 
-const dataDir = path.resolve('data');
-
-export async function runPipeline(sources: EventSource[], now = new Date()): Promise<void> {
-  const venues = venuesFileSchema.parse(JSON.parse(await readFile(path.join(dataDir, 'venues.json'), 'utf8')));
+export async function runPipeline(sources: EventSource[], now = new Date(), outputDir = path.resolve('data')): Promise<void> {
+  const venues = venuesFileSchema.parse(JSON.parse(await readFile(path.join(outputDir, 'venues.json'), 'utf8')));
   const end = new Date(now.valueOf() + 8 * 24 * 3_600_000);
   const settled = await Promise.all(sources.map(async (source) => ({ source, items: await source.fetch(now, end) })));
   const raw = settled.flatMap(({ items }) => items);
   const { events, review } = processRawEvents(raw, venues, now);
   if (sources.length > 0 && events.length === 0) throw new Error('Pipeline produced zero publishable events; last good data preserved.');
-  const previous = eventsFileSchema.parse(JSON.parse(await readFile(path.join(dataDir, 'events.json'), 'utf8')));
+  const previous = eventsFileSchema.parse(JSON.parse(await readFile(path.join(outputDir, 'events.json'), 'utf8')));
   if (previous.length > 0 && events.length < previous.length / 2) {
     throw new Error(`Pipeline event count dropped from ${previous.length} to ${events.length}; last good data preserved.`);
   }
@@ -36,7 +35,7 @@ export async function runPipeline(sources: EventSource[], now = new Date()): Pro
   };
   eventsFileSchema.parse(events); daysFileSchema.parse(days); reviewFileSchema.parse(review); metaSchema.parse(meta);
 
-  const tempDir = path.join(dataDir, `.next-${meta.run_id}`);
+  const tempDir = path.join(outputDir, `.next-${meta.run_id}`);
   await mkdir(tempDir, { recursive: true });
   await writeJson(tempDir, 'events.json', events);
   await writeJson(tempDir, 'days.json', days);
@@ -44,7 +43,7 @@ export async function runPipeline(sources: EventSource[], now = new Date()): Pro
   await writeJson(tempDir, 'meta.json', meta);
   await exportEventsSpreadsheet(events, path.join(tempDir, 'events.xlsx'));
   for (const filename of ['events.json', 'days.json', 'review.json', 'meta.json', 'events.xlsx']) {
-    await rename(path.join(tempDir, filename), path.join(dataDir, filename));
+    await rename(path.join(tempDir, filename), path.join(outputDir, filename));
   }
   await rm(tempDir, { recursive: true, force: true });
 }
@@ -54,7 +53,15 @@ async function writeJson(directory: string, filename: string, value: unknown): P
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
-  const key = process.env.TICKETMASTER_API_KEY;
-  if (!key) throw new Error('TICKETMASTER_API_KEY is required. Existing published data was not changed.');
-  await runPipeline([new TicketmasterSource(key)]);
+  const sources: EventSource[] = [];
+  if (process.env.TICKETMASTER_API_KEY) sources.push(new TicketmasterSource(process.env.TICKETMASTER_API_KEY));
+  if (process.env.EVENTFINDA_USERNAME && process.env.EVENTFINDA_PASSWORD && process.env.EVENTFINDA_LOCATION_ID) {
+    sources.push(new EventfindaSource({
+      username: process.env.EVENTFINDA_USERNAME,
+      password: process.env.EVENTFINDA_PASSWORD,
+      locationId: process.env.EVENTFINDA_LOCATION_ID
+    }));
+  }
+  if (sources.length === 0) throw new Error('No source credentials are configured. Existing published data was not changed.');
+  await runPipeline(sources);
 }

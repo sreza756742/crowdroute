@@ -19,4 +19,20 @@ describe('event processing', () => {
     const result = processRawEvents([valid, { ...valid, sourceId: '2', endAt: '2026-11-04T09:00:00Z' }], [venue]);
     expect(result.events).toHaveLength(1); expect(result.events[0].end_time_source).toBe('reported');
   });
+  it('accepts one unambiguous fuzzy venue match and reduces confidence', () => {
+    const result = processRawEvents([{ ...valid, venueName: 'Test Arena Auckland' }], [venue], new Date('2026-11-03T00:00:00Z'));
+    expect(result.events[0]).toMatchObject({ venue_id: 'arena', confidence: .75 });
+  });
+  it('rejects records outside the publication window', () => {
+    const result = processRawEvents([{ ...valid, startAt: '2026-12-04T06:00:00.000Z' }], [venue], new Date('2026-11-03T00:00:00Z'));
+    expect(result.review[0].reason).toMatch(/outside/);
+  });
+  it('rejects implausible reported durations', () => {
+    const result = processRawEvents([{ ...valid, endAt: '2026-11-05T06:00:00.000Z' }], [venue], new Date('2026-11-03T00:00:00Z'));
+    expect(result.review[0].reason).toMatch(/duration/);
+  });
+  it('never publishes confidence below the schema threshold after enrichment', () => {
+    const result = processRawEvents([{ ...valid, venueName: 'Test Arena Auckland', confidence: .75 }], [venue], new Date('2026-11-03T00:00:00Z'));
+    expect(result.events).toHaveLength(0); expect(result.review[0].reason).toMatch(/Confidence/);
+  });
 });

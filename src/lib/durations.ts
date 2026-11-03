@@ -9,6 +9,15 @@ export const DURATION_MINUTES: Record<Category, number> = {
   other: 120
 };
 
+export const MAX_DURATION_MINUTES: Record<Category, number> = {
+  concert: 480,
+  festival: 1_440,
+  sport: 480,
+  racing: 720,
+  show: 360,
+  other: 480
+};
+
 export function estimateEnd(startAt: string, category: Category): string {
   const start = new Date(startAt);
   if (Number.isNaN(start.valueOf())) throw new Error(`Invalid start time: ${startAt}`);
