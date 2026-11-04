@@ -1,10 +1,11 @@
 import { expect, test } from '@playwright/test';
 
-test('driver can inspect a Google Sheet event and return', async ({ page }) => {
+test('driver can inspect an event and return', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { name: 'Drive the busy hours.' })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Melbourne Cup Day/ })).toBeVisible();
-  await page.getByRole('button', { name: /Melbourne Cup Day/ }).click();
+  const eventCard = page.locator('.event-card').first();
+  await expect(eventCard).toBeVisible();
+  await eventCard.click();
   await expect(page.getByText('ESTIMATED FINISH')).toBeVisible();
   await expect(page.getByRole('link', { name: /Open in Maps/ })).toHaveAttribute('href', /google\.com\/maps/);
   await page.getByRole('button', { name: 'Back' }).click();
