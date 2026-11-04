@@ -16,7 +16,11 @@ describe('event processing', () => {
     expect(result.events).toHaveLength(0); expect(result.review[0].reason).toMatch(/Missing/);
   });
   it('keeps one event per dedupe key', () => {
-    const result = processRawEvents([valid, { ...valid, sourceId: '2', endAt: '2026-11-04T09:00:00Z' }], [venue]);
+    const result = processRawEvents(
+      [valid, { ...valid, sourceId: '2', endAt: '2026-11-04T09:00:00Z' }],
+      [venue],
+      new Date('2026-11-03T00:00:00Z')
+    );
     expect(result.events).toHaveLength(1); expect(result.events[0].end_time_source).toBe('reported');
   });
   it('accepts one unambiguous fuzzy venue match and reduces confidence', () => {
