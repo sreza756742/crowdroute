@@ -1,140 +1,5 @@
 [
   {
-    "id": "18497dc0163a19b0",
-    "title": "BLACKCAPS v India ODI",
-    "category": "sport",
-    "venue_id": "eden-park",
-    "start_at": "2026-11-04T02:00:00.000Z",
-    "est_end_at": "2026-11-04T05:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Eden Park",
-    "source_url": "https://edenpark.co.nz/events/blackcaps-v-india-odi-wednesday-4-november-2026/",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "blackcaps v india odi|eden-park|2026-11-04"
-  },
-  {
-    "id": "5e45ace076f7a142",
-    "title": "Botany Night Market",
-    "category": "other",
-    "venue_id": "botany-town-centre-under-hoyts",
-    "start_at": "2026-11-04T04:00:00.000Z",
-    "est_end_at": "2026-11-04T06:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Auckland Night Markets",
-    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "botany night market|botany-town-centre-under-hoyts|2026-11-04"
-  },
-  {
-    "id": "5ee61c64799be4d4",
-    "title": "Highbury Night Market",
-    "category": "other",
-    "venue_id": "highbury-shopping-centre-underground-car-park",
-    "start_at": "2026-11-04T04:00:00.000Z",
-    "est_end_at": "2026-11-04T06:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Auckland Night Markets",
-    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "highbury night market|highbury-shopping-centre-underground-car-park|2026-11-04"
-  },
-  {
-    "id": "de466f4586c09698",
-    "title": "SKWERT: The Reunion",
-    "category": "show",
-    "venue_id": "basement-theatre-studio",
-    "start_at": "2026-11-04T05:30:00.000Z",
-    "est_end_at": "2026-11-04T08:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Basement Theatre",
-    "source_url": "https://basementtheatre.co.nz/blogs/whats-on/skwert-the-reunion",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "skwert the reunion|basement-theatre-studio|2026-11-04"
-  },
-  {
-    "id": "716c220bc28a2184",
-    "title": "Quiz Night with Shaun Wallace for Cure Kids",
-    "category": "other",
-    "venue_id": "navigation-homes-stadium",
-    "start_at": "2026-11-04T06:00:00.000Z",
-    "est_end_at": "2026-11-04T08:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "AucklandNZ / Ticketmaster",
-    "source_url": "https://www.aucklandnz.com/events/all-events/cure-kids-quiz-night-with-dark-destroyer-shaun-wallace",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "quiz night with shaun wallace for cure kids|navigation-homes-stadium|2026-11-04"
-  },
-  {
-    "id": "f03c19b82a5b0fbd",
-    "title": "Jesus Christ Superstar",
-    "category": "show",
-    "venue_id": "the-civic",
-    "start_at": "2026-11-04T06:30:00.000Z",
-    "est_end_at": "2026-11-04T09:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "unknown",
-    "source_name": "Auckland Council / OurAuckland",
-    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
-    "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "jesus christ superstar|the-civic|2026-11-04"
-  },
-  {
-    "id": "8f83dd73f99f2a4a",
-    "title": "Public Service: Shooless + Hiri",
-    "category": "concert",
-    "venue_id": "public-bar-whammy",
-    "start_at": "2026-11-04T07:00:00.000Z",
-    "est_end_at": "2026-11-04T10:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "UnderTheRadar",
-    "source_url": "https://www.undertheradar.co.nz/gig/105481/Public-Service-Shooless--Hiri.utr",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "public service shooless hiri|public-bar-whammy|2026-11-04"
-  },
-  {
-    "id": "b6831661d4ebd229",
-    "title": "I Know You, Fish (or Te Conozco Bacalao)",
-    "category": "show",
-    "venue_id": "basement-theatre-theatre",
-    "start_at": "2026-11-04T07:00:00.000Z",
-    "est_end_at": "2026-11-04T09:30:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Basement Theatre",
-    "source_url": "https://basementtheatre.co.nz/blogs/whats-on/i-know-you-fish-or-te-conozco-bacalao",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "i know you fish or te conozco bacalao|basement-theatre-theatre|2026-11-04"
-  },
-  {
-    "id": "da99ee726e9981d2",
-    "title": "Driving Me Crazy",
-    "category": "show",
-    "venue_id": "basement-theatre-studio",
-    "start_at": "2026-11-04T07:30:00.000Z",
-    "est_end_at": "2026-11-04T10:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Basement Theatre",
-    "source_url": "https://basementtheatre.co.nz/blogs/whats-on/driving-me-crazy",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
-    "dedupe_key": "driving me crazy|basement-theatre-studio|2026-11-04"
-  },
-  {
     "id": "370e64eeb79f90d4",
     "title": "First Thursdays on Karangahape Road",
     "category": "festival",
@@ -146,7 +11,7 @@
     "source_name": "AucklandNZ / K Road Business Association",
     "source_url": "https://www.aucklandnz.com/events/all-events/first-thursdays-on-karangahape-rd",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "first thursdays on karangahape road|karangahape-road|2026-11-05"
   },
   {
@@ -161,7 +26,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "henderson night market|henderson-night-market-under-kmart|2026-11-05"
   },
   {
@@ -176,7 +41,7 @@
     "source_name": "The Tuning Fork",
     "source_url": "https://www.tuningfork.co.nz/whats-on",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "andre a lisa|the-tuning-fork|2026-11-05"
   },
   {
@@ -191,7 +56,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland-prod-pub.azurewebsites.net/events/2026/11/pictures-at-an-exhibition/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "pictures at an exhibition|great-hall-auckland-town-hall|2026-11-05"
   },
   {
@@ -206,7 +71,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-05"
   },
   {
@@ -221,7 +86,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-05"
   },
   {
@@ -236,8 +101,23 @@
     "source_name": "The Trusts Arena",
     "source_url": "https://thetrustsarena.co.nz/event/bring-it-home/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "bring it home gumboot throw world record attempt|the-trusts-arena|2026-11-06"
+  },
+  {
+    "id": "5f04e3c83660e8ea",
+    "title": "Friday Night Vibes Market",
+    "category": "other",
+    "venue_id": "the-trusts-arena",
+    "start_at": "2026-11-06T03:00:00.000Z",
+    "est_end_at": "2026-11-06T05:00:00.000Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "The Trusts Arena",
+    "source_url": "https://thetrustsarena.co.nz/event/auckland-night-market/",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "friday night vibes market|the-trusts-arena|2026-11-06"
   },
   {
     "id": "8f8b5f408b89e3e3",
@@ -251,7 +131,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "papatoetoe night market|papatoetoe-night-market-under-kmart|2026-11-06"
   },
   {
@@ -266,7 +146,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/keep-the-change-unplugged-2026",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "keep the change unplugged 2026|bruce-mason-centre|2026-11-06"
   },
   {
@@ -281,7 +161,7 @@
     "source_name": "AucklandNZ",
     "source_url": "https://www.aucklandnz.com/events/all-events/bnz-kahu-vs-pouakai-game-2",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "bnz ka hu vs poua kai|eventfinda-stadium|2026-11-06"
   },
   {
@@ -296,7 +176,7 @@
     "source_name": "The Tuning Fork",
     "source_url": "https://www.tuningfork.co.nz/all-events/ash-grunwald-tickets-ae1562909",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "ash grunwald|the-tuning-fork|2026-11-06"
   },
   {
@@ -311,7 +191,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-06"
   },
   {
@@ -326,7 +206,7 @@
     "source_name": "GALS / Humanitix",
     "source_url": "https://events.humanitix.com/galsreflections",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "gals presents reflections the way home|st-matthew-in-the-city|2026-11-06"
   },
   {
@@ -341,7 +221,7 @@
     "source_name": "Studio The Venue",
     "source_url": "https://studiovenue.co.nz/events-calendar/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "mick jenkins|studio-the-venue|2026-11-06"
   },
   {
@@ -356,7 +236,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-06"
   },
   {
@@ -371,7 +251,7 @@
     "source_name": "Great Auckland Bargain Book Fair",
     "source_url": "https://aucklandbargainbookfair.carrd.co/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "the great auckland bargain book fair day 1|barfoot-thompson-stadium|2026-11-07"
   },
   {
@@ -386,7 +266,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/open-arts-day-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "open arts day 2026|corban-estate-arts-centre|2026-11-07"
   },
   {
@@ -401,7 +281,7 @@
     "source_name": "MOTAT",
     "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "bricks and blocks day 1|motat-great-north-road|2026-11-07"
   },
   {
@@ -416,7 +296,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her matinee|titirangi-theatre-lopdell-house|2026-11-07"
   },
   {
@@ -431,7 +311,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar matinee|the-civic|2026-11-07"
   },
   {
@@ -446,7 +326,7 @@
     "source_name": "Auckland Transport",
     "source_url": "https://at.govt.nz/bus-train-ferry/event-transport/auckland-fc-vs-wellington-phoenix-2026",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "auckland fc v wellington phoenix|go-media-stadium|2026-11-07"
   },
   {
@@ -461,7 +341,7 @@
     "source_name": "AucklandNZ / Eventfinda",
     "source_url": "https://www.aucklandnz.com/events/all-events/diwali-with-khan-saab",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "diwali with khan saab|due-drop-events-centre|2026-11-07"
   },
   {
@@ -476,7 +356,7 @@
     "source_name": "Studio The Venue / Teamwrk Touring",
     "source_url": "https://teamwrktouring.com/tours/less-than-jake-circus-down-under",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "less than jake circus down under|studio-the-venue|2026-11-07"
   },
   {
@@ -491,7 +371,7 @@
     "source_name": "Spark Arena",
     "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "iron maiden run for your lives saturday|spark-arena|2026-11-07"
   },
   {
@@ -506,7 +386,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar evening|the-civic|2026-11-07"
   },
   {
@@ -521,7 +401,7 @@
     "source_name": "SkyCity Auckland",
     "source_url": "https://skycityauckland.co.nz/whats-on/entertainment/beatlemania-on-tour-2026/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "beatlemania on tour|skycity-theatre|2026-11-07"
   },
   {
@@ -536,7 +416,7 @@
     "source_name": "Eventbrite / Infusion Entertainment",
     "source_url": "https://www.eventbrite.co.nz/e/back-to-the-90s-auckland-new-venue-tickets-1998120328691",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "back to the 90s|wynyard-pavilion|2026-11-07"
   },
   {
@@ -551,7 +431,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her evening|titirangi-theatre-lopdell-house|2026-11-07"
   },
   {
@@ -566,7 +446,7 @@
     "source_name": "Great Auckland Bargain Book Fair",
     "source_url": "https://aucklandbargainbookfair.carrd.co/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "the great auckland bargain book fair day 2|barfoot-thompson-stadium|2026-11-08"
   },
   {
@@ -581,7 +461,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/people-s-triathlon-race-1-maraetai/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "people s triathlon race 1 maraetai|maraetai-beach|2026-11-08"
   },
   {
@@ -596,7 +476,7 @@
     "source_name": "MOTAT",
     "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "bricks and blocks day 2|motat-great-north-road|2026-11-08"
   },
   {
@@ -611,7 +491,7 @@
     "source_name": "Ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/24006545E0A9406A",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "dancing under the big top morning|bruce-mason-centre|2026-11-08"
   },
   {
@@ -626,7 +506,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/parnell-festival-of-roses/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "parnell festival of roses|parnell-rose-garden-dove-myer-robinson-park|2026-11-08"
   },
   {
@@ -641,7 +521,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar matinee|the-civic|2026-11-08"
   },
   {
@@ -656,7 +536,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her sunday|titirangi-theatre-lopdell-house|2026-11-08"
   },
   {
@@ -671,7 +551,7 @@
     "source_name": "Ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/240065479C4A2233",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "dancing under the big top afternoon|bruce-mason-centre|2026-11-08"
   },
   {
@@ -686,7 +566,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/reverie/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "nztrio reverie|concert-chamber-auckland-town-hall|2026-11-08"
   },
   {
@@ -701,7 +581,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar evening|the-civic|2026-11-08"
   },
   {
@@ -716,7 +596,7 @@
     "source_name": "Spark Arena",
     "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "iron maiden run for your lives sunday|spark-arena|2026-11-08"
   },
   {
@@ -731,7 +611,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/mm26-the-band-of-the-royal-regiment-of-new-zealand-artillery",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "royal nz artillery band morning melodies|bruce-mason-centre|2026-11-09"
   },
   {
@@ -746,8 +626,23 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "kelston night market|kelston-mall-under-woolworths|2026-11-09"
+  },
+  {
+    "id": "f1bce880b5e1ee8c",
+    "title": "Kings College Kickback Session 25 – The Finale",
+    "category": "concert",
+    "venue_id": "the-tuning-fork",
+    "start_at": "2026-11-09T05:00:00.000Z",
+    "est_end_at": "2026-11-09T08:00:00.000Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "The Tuning Fork",
+    "source_url": "https://www.tuningfork.co.nz/all-events/kings-college-kickback-session-25-tickets-ae1679841",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "kings college kickback session 25 the finale|the-tuning-fork|2026-11-09"
   },
   {
     "id": "188304ae90410c17",
@@ -761,7 +656,7 @@
     "source_name": "CONZTRUCT",
     "source_url": "https://conztruct.co.nz/register/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "conztruct auckland north|eventfinda-stadium|2026-11-10"
   },
   {
@@ -776,7 +671,7 @@
     "source_name": "Auckland Stadiums",
     "source_url": "https://www.aucklandstadiums.co.nz/event/albany-night-market",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "albany night market|north-harbour-stadium-car-park-h|2026-11-10"
   },
   {
@@ -791,7 +686,7 @@
     "source_name": "Ticketmaster / Auckland Live",
     "source_url": "https://www.ticketmaster.co.nz/jesus-christ-superstar-tickets/artist/843994",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-10"
   },
   {
@@ -806,7 +701,67 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
     "confidence": 0.95,
-    "updated_at": "2026-11-04T03:37:54.889Z",
+    "updated_at": "2026-11-04T20:24:18.225Z",
     "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-10"
+  },
+  {
+    "id": "ded2c7ea2277cae8",
+    "title": "Botany Night Market",
+    "category": "other",
+    "venue_id": "botany-town-centre-under-hoyts",
+    "start_at": "2026-11-11T04:00:00.000Z",
+    "est_end_at": "2026-11-11T06:00:00.000Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "Auckland Night Markets",
+    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "botany night market|botany-town-centre-under-hoyts|2026-11-11"
+  },
+  {
+    "id": "dbfc87a3c3b755df",
+    "title": "Silva Bumpa",
+    "category": "concert",
+    "venue_id": "studio-the-venue",
+    "start_at": "2026-11-11T06:00:00.000Z",
+    "est_end_at": "2026-11-11T09:00:00.000Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "Studio The Venue",
+    "source_url": "https://studiovenue.co.nz/events-calendar/",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "silva bumpa|studio-the-venue|2026-11-11"
+  },
+  {
+    "id": "025e4377e96ca45a",
+    "title": "Dan and Phil – Hard Launch World Tour",
+    "category": "show",
+    "venue_id": "kiri-te-kanawa-theatre-aotea-centre",
+    "start_at": "2026-11-11T06:30:00.000Z",
+    "est_end_at": "2026-11-11T09:00:00.000Z",
+    "end_time_source": "estimated",
+    "crowd_band": "unknown",
+    "source_name": "Auckland Live",
+    "source_url": "https://www.aucklandlive.co.nz/show/dan-and-phil-hard-launch-world-tour",
+    "confidence": 0.8999999999999999,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "dan and phil hard launch world tour|kiri-te-kanawa-theatre-aotea-centre|2026-11-11"
+  },
+  {
+    "id": "b0220a013bd99dd5",
+    "title": "Jesus Christ Superstar",
+    "category": "show",
+    "venue_id": "the-civic",
+    "start_at": "2026-11-11T06:30:00.000Z",
+    "est_end_at": "2026-11-11T09:00:00.000Z",
+    "end_time_source": "reported",
+    "crowd_band": "unknown",
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+    "confidence": 0.95,
+    "updated_at": "2026-11-04T20:24:18.225Z",
+    "dedupe_key": "jesus christ superstar|the-civic|2026-11-11"
   }
 ]

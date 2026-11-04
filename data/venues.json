@@ -568,5 +568,15 @@
     "area": "central",
     "capacity": null,
     "notes": "Imported from the Driver-Data Google Sheet."
+  },
+  {
+    "id": "kiri-te-kanawa-theatre-aotea-centre",
+    "name": "Kiri Te Kanawa Theatre, Aotea Centre",
+    "address": "50 Mayoral Drive, Auckland CBD, Auckland 1010",
+    "lat": null,
+    "lng": null,
+    "area": "central",
+    "capacity": null,
+    "notes": "Imported from the Driver-Data Google Sheet."
   }
 ]
