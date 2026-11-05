@@ -374,6 +374,138 @@
     }
   },
   {
+    "source_name": "AucklandNZ / K Road Business Association",
+    "source_url": "https://www.aucklandnz.com/events/all-events/first-thursdays-on-karangahape-rd",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "First Thursdays on Karangahape Road",
+      "category": "festival",
+      "venue_name": "Karangahape Road",
+      "venue_address": "Karangahape Road, Auckland City Centre",
+      "area": "Auckland Central",
+      "start_date": "2026-11-05",
+      "start_time": "17:00",
+      "end_date": "2026-11-05",
+      "end_time": "21:00",
+      "source_name": "AucklandNZ / K Road Business Association",
+      "source_url": "https://www.aucklandnz.com/events/all-events/first-thursdays-on-karangahape-rd",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free street festival, 17:00–21:00, with markets, DJs, live music, comedy and late openings. Attendance unpublished. Driver estimate: medium-high, target 20:30–22:00 around Karanga-a-Hape Station and side streets; public transport may dilute demand. Afternoon showers may increase rideshare share. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
+    "source_name": "The Tuning Fork",
+    "source_url": "https://www.tuningfork.co.nz/whats-on",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Andréa Lisa",
+      "category": "concert",
+      "venue_name": "The Tuning Fork",
+      "venue_address": "42 Mahuhu Crescent, Parnell, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-05",
+      "start_time": "18:30",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "The Tuning Fork",
+      "source_url": "https://www.tuningfork.co.nz/whats-on",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $37–$85; venue confirms 18:30 start. Attendance and finish unpublished. Driver estimate: low-moderate, likely pickups 20:30–21:30; combine with K Road/CBD work, not a dedicated West Auckland reposition. Charlie Puth at Spark Arena is cancelled, so no arena-scale spillover. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland-prod-pub.azurewebsites.net/events/2026/11/pictures-at-an-exhibition/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Pictures at an Exhibition",
+      "category": "concert",
+      "venue_name": "Great Hall, Auckland Town Hall",
+      "venue_address": "301–317 Queen Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-05",
+      "start_time": "19:30",
+      "end_date": "2026-11-05",
+      "end_time": "21:30",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland-prod-pub.azurewebsites.net/events/2026/11/pictures-at-an-exhibition/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $30.59–$144.77; advertised 19:30–21:30 and Ticketmaster shows low availability. Actual attendance unpublished. Driver estimate: medium-high, target Aotea/Town Hall 21:15–21:50. Afternoon showers may increase short CBD rides. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Jesus Christ Superstar",
+      "category": "show",
+      "venue_name": "The Civic",
+      "venue_address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-05",
+      "start_time": "19:30",
+      "end_date": "2026-11-05",
+      "end_time": "22:00",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Paid from $70.86; Ticketmaster shows low availability. Venue capacity 2,378, not attendance. Advertised 19:30–22:00. Driver estimate: medium-high, target 21:30–22:20; overlaps Town Hall and K Road exits. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Burn Her",
+      "category": "show",
+      "venue_name": "Titirangi Theatre, Lopdell House",
+      "venue_address": "418 Titirangi Road, Titirangi, Auckland",
+      "area": "West Auckland",
+      "start_date": "2026-11-05",
+      "start_time": "20:00",
+      "end_date": "2026-11-05",
+      "end_time": "22:15",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; advertised 20:00–22:15. Attendance unpublished. Driver estimate: low surge but useful local West Auckland pickup 22:05–22:35. Afternoon showers may increase rideshare demand. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Night Markets",
+    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Henderson Night Market",
+      "category": "other",
+      "venue_name": "Henderson Night Market, under Kmart",
+      "venue_address": "",
+      "area": "West Auckland",
+      "start_date": "2026-11-05",
+      "start_time": "17:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Auckland Night Markets",
+      "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free weekly market; organiser lists 17:00–late and secondary listings suggest about 23:00. Attendance and official finish unconfirmed. Driver estimate: low-moderate staggered demand, target 20:30–23:00 because it is local to the West Auckland base. Afternoon showers may reduce turnout but lift rideshare share. Checked 5 Nov 2026 08:30 NZDT."
+    }
+  },
+  {
     "source_name": "Jassy Dean Trust",
     "source_url": "https://jassydeantrust.org/",
     "reason": "Unknown venue",
