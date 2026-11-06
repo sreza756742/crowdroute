@@ -506,6 +506,182 @@
     }
   },
   {
+    "source_name": "The Trusts Arena",
+    "source_url": "https://thetrustsarena.co.nz/event/bring-it-home/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "BRING IT HOME – Gumboot Throw World Record Attempt",
+      "category": "festival",
+      "venue_name": "The Trusts Arena",
+      "venue_address": "65–67 Central Park Drive, Henderson, Auckland 0610",
+      "area": "West Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "16:00",
+      "end_date": "2026-11-06",
+      "end_time": "18:00",
+      "source_name": "The Trusts Arena",
+      "source_url": "https://thetrustsarena.co.nz/event/bring-it-home/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free public event, 16:00–18:00, with athletes, DJ, food and family activities. Attendance unpublished. Driver estimate: medium local exit 17:45–18:30. Heavy afternoon showers may reduce turnout but increase rideshare share. Checked 4 Nov 2026 21:34 NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Night Markets",
+    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Papatoetoe Night Market",
+      "category": "other",
+      "venue_name": "Papatoetoe Night Market, under Kmart",
+      "venue_address": "",
+      "area": "South Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "17:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Auckland Night Markets",
+      "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free weekly market; organiser lists 17:00–late. Attendance and finish unconfirmed. Driver estimate: low-moderate and staggered; heavy showers could lift rideshare demand but hurt turnout. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "AucklandNZ",
+    "source_url": "https://www.aucklandnz.com/events/all-events/bnz-kahu-vs-pouakai-game-2",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "BNZ Kāhu vs Pouākai",
+      "category": "sport",
+      "venue_name": "Eventfinda Stadium",
+      "venue_address": "17 Silverfield, Wairau Valley, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "18:30",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "AucklandNZ",
+      "source_url": "https://www.aucklandnz.com/events/all-events/bnz-kahu-vs-pouakai-game-2",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $5.12–$78.88; Rapid League begins 18:30, finish unpublished. Stadium has more than 4,000 seats, not attendance. Driver estimate: medium, likely exit 20:30–21:30; far from West Auckland without a fare taking you north. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Live",
+    "source_url": "https://www.aucklandlive.co.nz/show/keep-the-change-unplugged-2026",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Keep The Change Unplugged 2026",
+      "category": "show",
+      "venue_name": "Bruce Mason Centre",
+      "venue_address": "1 The Promenade, Takapuna, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "18:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Auckland Live",
+      "source_url": "https://www.aucklandlive.co.nz/show/keep-the-change-unplugged-2026",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; attendance and finish unpublished. Driver estimate: medium local concentration, estimated pickup window 20:00–21:30; combine with North Shore demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "The Tuning Fork",
+    "source_url": "https://www.tuningfork.co.nz/all-events/ash-grunwald-tickets-ae1562909",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Ash Grunwald",
+      "category": "concert",
+      "venue_name": "The Tuning Fork",
+      "venue_address": "42 Mahuhu Crescent, Parnell, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-06",
+      "start_time": "19:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "The Tuning Fork",
+      "source_url": "https://www.tuningfork.co.nz/all-events/ash-grunwald-tickets-ae1562909",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; doors 19:00, finish unpublished. Driver estimate: low-moderate, likely late-evening pickups in the Spark Arena precinct. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Jesus Christ Superstar",
+      "category": "show",
+      "venue_name": "The Civic",
+      "venue_address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-06",
+      "start_time": "19:30",
+      "end_date": "2026-11-06",
+      "end_time": "22:00",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Paid from $70.86. Venue capacity 2,378, not attendance. Driver estimate: medium-high, target 21:30–22:15. Wet weather may raise rideshare demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "GALS / Humanitix",
+    "source_url": "https://events.humanitix.com/galsreflections",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "GALS Presents: Reflections – The Way Home",
+      "category": "concert",
+      "venue_name": "St Matthew-in-the-City",
+      "venue_address": "132 Hobson Street, Auckland CBD 1010",
+      "area": "Auckland Central",
+      "start_date": "2026-11-06",
+      "start_time": "19:30",
+      "end_date": "2026-11-06",
+      "end_time": "21:30",
+      "source_name": "GALS / Humanitix",
+      "source_url": "https://events.humanitix.com/galsreflections",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $30–$60; prior June concert sold out, but this performance's attendance is unpublished. Driver estimate: medium, target 21:15–21:45; wet weather may strengthen requests. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Burn Her",
+      "category": "show",
+      "venue_name": "Titirangi Theatre, Lopdell House",
+      "venue_address": "418 Titirangi Road, Titirangi, Auckland",
+      "area": "West Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "20:00",
+      "end_date": "2026-11-06",
+      "end_time": "22:15",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; attendance unpublished. Driver estimate: low surge but practical local pickups 22:05–22:30. Wet weather may increase ride requests. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
     "source_name": "Jassy Dean Trust",
     "source_url": "https://jassydeantrust.org/",
     "reason": "Unknown venue",
@@ -547,6 +723,50 @@
       "crowd_band": "",
       "status": "publish",
       "notes": "Ticketed $60 after early bird; attendance unpublished. Driver estimate: low for mainland drivers, possible ferry-terminal demand around 09:00 and 16:00–17:00. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Studio The Venue",
+    "source_url": "https://studiovenue.co.nz/events-calendar/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Mick Jenkins",
+      "category": "concert",
+      "venue_name": "Studio The Venue",
+      "venue_address": "340 Karangahape Road, Auckland Central, Auckland 1010",
+      "area": "Auckland Central",
+      "start_date": "2026-11-06",
+      "start_time": "19:30",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Studio The Venue",
+      "source_url": "https://studiovenue.co.nz/events-calendar/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed, R18; venue calendar confirms 19:30 and ticket listing shows $49.90. Attendance and finish unpublished. Driver estimate: medium; target 22:00–23:15, estimated, within the K Road cluster. Checked 4 Nov 2026 08:33 NZDT."
+    }
+  },
+  {
+    "source_name": "The Trusts Arena",
+    "source_url": "https://thetrustsarena.co.nz/event/auckland-night-market/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Friday Night Vibes Market",
+      "category": "other",
+      "venue_name": "The Trusts Arena",
+      "venue_address": "65–67 Central Park Drive, Henderson, Auckland 0610",
+      "area": "West Auckland",
+      "start_date": "2026-11-06",
+      "start_time": "16:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "The Trusts Arena",
+      "source_url": "https://thetrustsarena.co.nz/event/auckland-night-market/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free Friday market from 16:00; venue reports street food, makers, live entertainment and free parking. AucklandNZ advertises a 21:00 finish, but the venue does not publish a finish clock, so end fields are blank. Attendance unpublished. Driver estimate: low-moderate, target 19:30–21:15; overlaps Bring It Home. Heavy showers may reduce turnout but increase ride share. Checked 4 Nov 2026 21:34 NZDT."
     }
   }
 ]
