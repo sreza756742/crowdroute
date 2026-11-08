@@ -968,6 +968,94 @@
     }
   },
   {
+    "source_name": "Great Auckland Bargain Book Fair",
+    "source_url": "https://aucklandbargainbookfair.carrd.co/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "The Great Auckland Bargain Book Fair – Day 2",
+      "category": "festival",
+      "venue_name": "Barfoot & Thompson Stadium",
+      "venue_address": "203 Kohimarama Road, Kohimarama, Auckland",
+      "area": "East Auckland",
+      "start_date": "2026-11-08",
+      "start_time": "07:00",
+      "end_date": "2026-11-08",
+      "end_time": "15:00",
+      "source_name": "Great Auckland Bargain Book Fair",
+      "source_url": "https://aucklandbargainbookfair.carrd.co/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free, New Zealand's largest annual book fair; attendance unpublished. Driver estimate: moderate, busiest arrivals early and departures 14:30–15:30; parking is limited. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/people-s-triathlon-race-1-maraetai/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "People's Triathlon – Race 1 Maraetai",
+      "category": "sport",
+      "venue_name": "Maraetai Beach",
+      "venue_address": "188 Maraetai Drive, Maraetai, Auckland",
+      "area": "East Auckland",
+      "start_date": "2026-11-08",
+      "start_time": "08:00",
+      "end_date": "2026-11-08",
+      "end_time": "12:00",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/people-s-triathlon-race-1-maraetai/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Paid from $65; registration 06:00, briefing 07:45, racing 08:00–12:00. Participant count unpublished. Driver estimate: medium but distant, strongest 06:00–07:45 and 11:30–12:30. Morning showers could raise ride demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "MOTAT",
+    "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Bricks and Blocks – Day 2",
+      "category": "festival",
+      "venue_name": "MOTAT, Great North Road",
+      "venue_address": "805 Great North Road, Western Springs, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "10:00",
+      "end_date": "2026-11-08",
+      "end_time": "16:00",
+      "source_name": "MOTAT",
+      "source_url": "https://www.motat.nz/events/bricks-and-blocks-2026/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Included with general admission; LEGO fan display. Attendance unpublished. Driver estimate: medium family traffic 15:30–16:30; parking outside Aviation Hall and free tram advertised. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/24006545E0A9406A",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Dancing Under the Big Top – Morning",
+      "category": "show",
+      "venue_name": "Bruce Mason Centre",
+      "venue_address": "1 The Promenade, Takapuna, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-08",
+      "start_time": "10:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Ticketmaster",
+      "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/24006545E0A9406A",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed dance showcase; attendance and finish unpublished. Driver estimate: medium family pickup after the show, estimated 12:00–13:00; verify Driver app before crossing the bridge. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
     "source_name": "Jassy Dean Trust",
     "source_url": "https://jassydeantrust.org/",
     "reason": "Unknown venue",
@@ -987,6 +1075,160 @@
       "crowd_band": "",
       "status": "publish",
       "notes": "Ticketed $60 after early bird; attendance unpublished. Driver estimate: low for mainland drivers, possible ferry-terminal demand around 09:00 and 16:00–17:00. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/parnell-festival-of-roses/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Parnell Festival of Roses",
+      "category": "festival",
+      "venue_name": "Parnell Rose Garden, Dove-Myer Robinson Park",
+      "venue_address": "85 Gladstone Road, Parnell, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "11:00",
+      "end_date": "2026-11-08",
+      "end_time": "16:00",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/parnell-festival-of-roses/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free festival with food trucks, markets and activities. Attendance unpublished; parking is limited and public transport encouraged. Driver estimate: medium, strongest arrivals 10:30–12:00 and exit 15:30–16:30. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Jesus Christ Superstar – Matinee",
+      "category": "show",
+      "venue_name": "The Civic",
+      "venue_address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "13:00",
+      "end_date": "2026-11-08",
+      "end_time": "15:30",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Paid from $70.86; Ticketmaster shows low availability. Venue capacity 2,378, not attendance. Driver estimate: medium-high, target 15:00–15:45. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Burn Her – Sunday",
+      "category": "show",
+      "venue_name": "Titirangi Theatre, Lopdell House",
+      "venue_address": "418 Titirangi Road, Titirangi, Auckland",
+      "area": "West Auckland",
+      "start_date": "2026-11-08",
+      "start_time": "16:00",
+      "end_date": "2026-11-08",
+      "end_time": "18:15",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; attendance unpublished. Driver estimate: low surge but convenient local pickups 18:05–18:30. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/240065479C4A2233",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Dancing Under the Big Top – Afternoon",
+      "category": "show",
+      "venue_name": "Bruce Mason Centre",
+      "venue_address": "1 The Promenade, Takapuna, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-08",
+      "start_time": "16:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Ticketmaster",
+      "source_url": "https://www.ticketmaster.co.nz/dancing-under-the-big-top-takapuna-beach-08-11-2026/event/240065479C4A2233",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed dance showcase; attendance and finish unpublished. Driver estimate: medium family pickup, estimated 18:00–19:00; combine with North Shore work. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/reverie/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "NZTrio: Reverie",
+      "category": "concert",
+      "venue_name": "Concert Chamber, Auckland Town Hall",
+      "venue_address": "301–317 Queen Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "17:00",
+      "end_date": "2026-11-08",
+      "end_time": "19:00",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/reverie/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $33.13–$66.27; advertised 17:00–19:00. Attendance unpublished. Driver estimate: low-moderate, useful within the Aotea cluster 18:45–19:15. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Jesus Christ Superstar – Evening",
+      "category": "show",
+      "venue_name": "The Civic",
+      "venue_address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "18:00",
+      "end_date": "2026-11-08",
+      "end_time": "20:30",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Paid from $70.86. Venue capacity 2,378, not attendance. Driver estimate: medium-high, target 20:00–20:45 before Spark Arena's later exit. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Spark Arena",
+    "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Iron Maiden: Run For Your Lives – Sunday",
+      "category": "concert",
+      "venue_name": "Spark Arena",
+      "venue_address": "42 Mahuhu Crescent, Parnell, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-08",
+      "start_time": "19:20",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Spark Arena",
+      "source_url": "https://www.sparkarena.co.nz/all-events/iron-maiden-tickets-ae118",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; doors 18:20, event 19:20. Attendance and finish unpublished. Entry: Gates C/G floor, D/E bowl, F VIP, B mobility/members. Driver estimate: very high, likely exit 22:30–23:30. Morning showers should ease before the show. Use arena controls and Driver app pins. Checked 4 Nov 2026 21:34 NZDT."
     }
   },
   {
