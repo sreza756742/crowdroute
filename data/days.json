@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-11-09",
-    "rating": "quiet",
-    "score": 2.63,
-    "top_event_ids": [
-      "bb1152c89e1ada87",
-      "f1bce880b5e1ee8c",
-      "e6cd7a848ce46ca8"
-    ]
-  },
-  {
     "date": "2026-11-10",
     "rating": "busy",
     "score": 8.7,
@@ -55,6 +45,12 @@
   },
   {
     "date": "2026-11-16",
+    "rating": "quiet",
+    "score": 0,
+    "top_event_ids": []
+  },
+  {
+    "date": "2026-11-17",
     "rating": "quiet",
     "score": 0,
     "top_event_ids": []

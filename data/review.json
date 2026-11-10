@@ -1232,6 +1232,50 @@
     }
   },
   {
+    "source_name": "Auckland Live",
+    "source_url": "https://www.aucklandlive.co.nz/show/mm26-the-band-of-the-royal-regiment-of-new-zealand-artillery",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Royal NZ Artillery Band – Morning Melodies",
+      "category": "concert",
+      "venue_name": "Bruce Mason Centre",
+      "venue_address": "1 The Promenade, Takapuna, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-09",
+      "start_time": "11:00",
+      "end_date": "2026-11-09",
+      "end_time": "12:00",
+      "source_name": "Auckland Live",
+      "source_url": "https://www.aucklandlive.co.nz/show/mm26-the-band-of-the-royal-regiment-of-new-zealand-artillery",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $7.14; one-hour performance. Attendance unpublished. Driver estimate: low-moderate daytime pickup 11:45–12:15. Rain may increase rideshare demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Night Markets",
+    "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Kelston Night Market",
+      "category": "other",
+      "venue_name": "Kelston Mall, under Woolworths",
+      "venue_address": "",
+      "area": "West Auckland",
+      "start_date": "2026-11-09",
+      "start_time": "17:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Auckland Night Markets",
+      "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free weekly market; organiser lists 17:00–late. Attendance and finish unconfirmed. Driver estimate: medium local opportunity because rain may boost ride requests, but rain could reduce turnout. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
     "source_name": "Studio The Venue",
     "source_url": "https://studiovenue.co.nz/events-calendar/",
     "reason": "Start date outside the eight-day window",
@@ -1295,6 +1339,28 @@
       "crowd_band": "",
       "status": "publish",
       "notes": "Free Friday market from 16:00; venue reports street food, makers, live entertainment and free parking. AucklandNZ advertises a 21:00 finish, but the venue does not publish a finish clock, so end fields are blank. Attendance unpublished. Driver estimate: low-moderate, target 19:30–21:15; overlaps Bring It Home. Heavy showers may reduce turnout but increase ride share. Checked 4 Nov 2026 21:34 NZDT."
+    }
+  },
+  {
+    "source_name": "The Tuning Fork",
+    "source_url": "https://www.tuningfork.co.nz/all-events/kings-college-kickback-session-25-tickets-ae1679841",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Kings College Kickback Session 25 – The Finale",
+      "category": "concert",
+      "venue_name": "The Tuning Fork",
+      "venue_address": "42 Mahuhu Crescent, Parnell, Auckland 1010",
+      "area": "Auckland Central",
+      "start_date": "2026-11-09",
+      "start_time": "18:00",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "The Tuning Fork",
+      "source_url": "https://www.tuningfork.co.nz/all-events/kings-college-kickback-session-25-tickets-ae1679841",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed $30, all ages; venue confirms doors at 18:00. A ticket listing says the show begins 18:30, but official finish and attendance are unpublished. Driver estimate: low-moderate, target 20:30–21:45 if already in the Spark/Tuning Fork precinct. Rain may increase rideshare share. Checked 5 Nov 2026 08:30 NZDT."
     }
   }
 ]
