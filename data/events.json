@@ -1,65 +1,5 @@
 [
   {
-    "id": "188304ae90410c17",
-    "title": "CONZTRUCT Auckland North",
-    "category": "other",
-    "venue_id": "eventfinda-stadium",
-    "start_at": "2026-11-10T02:00:00.000Z",
-    "est_end_at": "2026-11-10T05:30:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "unknown",
-    "source_name": "CONZTRUCT",
-    "source_url": "https://conztruct.co.nz/register/",
-    "confidence": 0.95,
-    "updated_at": "2026-11-10T10:38:44.488Z",
-    "dedupe_key": "conztruct auckland north|eventfinda-stadium|2026-11-10"
-  },
-  {
-    "id": "c01088a2942bfd9a",
-    "title": "Albany Night Market",
-    "category": "other",
-    "venue_id": "north-harbour-stadium-car-park-h",
-    "start_at": "2026-11-10T03:00:00.000Z",
-    "est_end_at": "2026-11-10T10:00:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "unknown",
-    "source_name": "Auckland Stadiums",
-    "source_url": "https://www.aucklandstadiums.co.nz/event/albany-night-market",
-    "confidence": 0.95,
-    "updated_at": "2026-11-10T10:38:44.488Z",
-    "dedupe_key": "albany night market|north-harbour-stadium-car-park-h|2026-11-10"
-  },
-  {
-    "id": "0cd4d1c9cc38b14c",
-    "title": "Jesus Christ Superstar",
-    "category": "show",
-    "venue_id": "the-civic",
-    "start_at": "2026-11-10T06:30:00.000Z",
-    "est_end_at": "2026-11-10T09:00:00.000Z",
-    "end_time_source": "estimated",
-    "crowd_band": "unknown",
-    "source_name": "Ticketmaster / Auckland Live",
-    "source_url": "https://www.ticketmaster.co.nz/jesus-christ-superstar-tickets/artist/843994",
-    "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T10:38:44.488Z",
-    "dedupe_key": "jesus christ superstar|the-civic|2026-11-10"
-  },
-  {
-    "id": "6e41ddae0396cb77",
-    "title": "Burn Her",
-    "category": "show",
-    "venue_id": "titirangi-theatre-lopdell-house",
-    "start_at": "2026-11-10T07:00:00.000Z",
-    "est_end_at": "2026-11-10T09:15:00.000Z",
-    "end_time_source": "reported",
-    "crowd_band": "unknown",
-    "source_name": "Auckland Council / OurAuckland",
-    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
-    "confidence": 0.95,
-    "updated_at": "2026-11-10T10:38:44.488Z",
-    "dedupe_key": "burn her|titirangi-theatre-lopdell-house|2026-11-10"
-  },
-  {
     "id": "ded2c7ea2277cae8",
     "title": "Botany Night Market",
     "category": "other",
@@ -71,7 +11,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T10:38:44.488Z",
+    "updated_at": "2026-11-10T22:05:26.407Z",
     "dedupe_key": "botany night market|botany-town-centre-under-hoyts|2026-11-11"
   },
   {
@@ -86,7 +26,7 @@
     "source_name": "Studio The Venue",
     "source_url": "https://studiovenue.co.nz/events-calendar/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T10:38:44.488Z",
+    "updated_at": "2026-11-10T22:05:26.407Z",
     "dedupe_key": "silva bumpa|studio-the-venue|2026-11-11"
   },
   {
@@ -101,7 +41,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/dan-and-phil-hard-launch-world-tour",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T10:38:44.488Z",
+    "updated_at": "2026-11-10T22:05:26.407Z",
     "dedupe_key": "dan and phil hard launch world tour|kiri-te-kanawa-theatre-aotea-centre|2026-11-11"
   },
   {
@@ -116,7 +56,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-10T10:38:44.488Z",
+    "updated_at": "2026-11-10T22:05:26.407Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-11"
   }
 ]

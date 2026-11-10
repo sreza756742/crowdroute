@@ -1276,6 +1276,94 @@
     }
   },
   {
+    "source_name": "CONZTRUCT",
+    "source_url": "https://conztruct.co.nz/register/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "CONZTRUCT Auckland North",
+      "category": "other",
+      "venue_name": "Eventfinda Stadium",
+      "venue_address": "17 Silverfield, Wairau Valley, Auckland",
+      "area": "North Auckland",
+      "start_date": "2026-11-10",
+      "start_time": "15:00",
+      "end_date": "2026-11-10",
+      "end_time": "18:30",
+      "source_name": "CONZTRUCT",
+      "source_url": "https://conztruct.co.nz/register/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free registration trade event for construction professionals; attendance unpublished. Driver estimate: medium concentrated exit 18:00–19:00. Rain may increase rideshare demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Stadiums",
+    "source_url": "https://www.aucklandstadiums.co.nz/event/albany-night-market",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Albany Night Market",
+      "category": "other",
+      "venue_name": "North Harbour Stadium, Car Park H",
+      "venue_address": "Stadium Drive, Albany, Auckland 0632",
+      "area": "North Auckland",
+      "start_date": "2026-11-10",
+      "start_time": "16:00",
+      "end_date": "2026-11-10",
+      "end_time": "23:00",
+      "source_name": "Auckland Stadiums",
+      "source_url": "https://www.aucklandstadiums.co.nz/event/albany-night-market",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Free weekly market; venue advertises 16:00–23:00 and 100+ vendors, while the organiser lists 17:00–late. Attendance unpublished. Free parking; Albany Bus Station about 15 minutes on foot. Driver estimate: low-moderate; rain may increase rideshare share but hurt turnout. Avoid empty-running from West Auckland. Checked 4 Nov 2026 21:34 NZDT."
+    }
+  },
+  {
+    "source_name": "Ticketmaster / Auckland Live",
+    "source_url": "https://www.ticketmaster.co.nz/jesus-christ-superstar-tickets/artist/843994",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Jesus Christ Superstar",
+      "category": "show",
+      "venue_name": "The Civic",
+      "venue_address": "269–287 Queen Street, corner Wellesley Street, Auckland",
+      "area": "Auckland Central",
+      "start_date": "2026-11-10",
+      "start_time": "19:30",
+      "end_date": "",
+      "end_time": "",
+      "source_name": "Ticketmaster / Auckland Live",
+      "source_url": "https://www.ticketmaster.co.nz/jesus-christ-superstar-tickets/artist/843994",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; Ticketmaster shows good availability. Auckland Live runtime 1h50 implies estimated 21:20 finish; end fields left blank. Driver estimate: medium, target 21:00–21:45. Rain may increase requests. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
+    "source_name": "Auckland Council / OurAuckland",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+    "reason": "Start date outside the eight-day window",
+    "raw": {
+      "event_id": "",
+      "title": "Burn Her",
+      "category": "show",
+      "venue_name": "Titirangi Theatre, Lopdell House",
+      "venue_address": "418 Titirangi Road, Titirangi, Auckland",
+      "area": "West Auckland",
+      "start_date": "2026-11-10",
+      "start_time": "20:00",
+      "end_date": "2026-11-10",
+      "end_time": "22:15",
+      "source_name": "Auckland Council / OurAuckland",
+      "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/11/burn-her/",
+      "crowd_band": "",
+      "status": "publish",
+      "notes": "Ticketed; attendance unpublished. Driver estimate: low surge but practical local pickup 22:05–22:30. Rain may increase rideshare demand. Checked 3 Nov 2026 evening NZDT."
+    }
+  },
+  {
     "source_name": "Studio The Venue",
     "source_url": "https://studiovenue.co.nz/events-calendar/",
     "reason": "Start date outside the eight-day window",
