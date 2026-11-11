@@ -11,7 +11,7 @@
     "source_name": "Auckland Night Markets",
     "source_url": "https://www.aucklandnightmarkets.co.nz/locations",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T22:05:26.407Z",
+    "updated_at": "2026-11-11T10:03:20.562Z",
     "dedupe_key": "botany night market|botany-town-centre-under-hoyts|2026-11-11"
   },
   {
@@ -26,7 +26,7 @@
     "source_name": "Studio The Venue",
     "source_url": "https://studiovenue.co.nz/events-calendar/",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T22:05:26.407Z",
+    "updated_at": "2026-11-11T10:03:20.562Z",
     "dedupe_key": "silva bumpa|studio-the-venue|2026-11-11"
   },
   {
@@ -41,7 +41,7 @@
     "source_name": "Auckland Live",
     "source_url": "https://www.aucklandlive.co.nz/show/dan-and-phil-hard-launch-world-tour",
     "confidence": 0.8999999999999999,
-    "updated_at": "2026-11-10T22:05:26.407Z",
+    "updated_at": "2026-11-11T10:03:20.562Z",
     "dedupe_key": "dan and phil hard launch world tour|kiri-te-kanawa-theatre-aotea-centre|2026-11-11"
   },
   {
@@ -56,7 +56,7 @@
     "source_name": "Auckland Council / OurAuckland",
     "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/10/jesus-christ-superstar/",
     "confidence": 0.95,
-    "updated_at": "2026-11-10T22:05:26.407Z",
+    "updated_at": "2026-11-11T10:03:20.562Z",
     "dedupe_key": "jesus christ superstar|the-civic|2026-11-11"
   }
 ]
